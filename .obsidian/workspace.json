@@ -4,28 +4,72 @@
     "type": "split",
     "children": [
       {
-        "id": "4b7a39adf7d65675",
+        "id": "63610c343dac0a44",
         "type": "tabs",
         "children": [
           {
-            "id": "eb14d2e2a4f2662d",
+            "id": "7a58dba5e7cd25d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2023-01-10.md",
+                "file": "Docker/Docker.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e980467f7b32d559",
+            "id": "b883e15c0a60f2ac",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5c1ec7fe00a11e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Tutorial/Extraction.md",
+                "file": "books/hands_on_network_programming/bind.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17b180d3eb349717",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/hands_on_network_programming/connect.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "30c5d3642c5ea724",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/hands_on_network_programming/socket.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5279181d722a7301",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/hands_on_network_programming/getaddrinfo.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +104,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "20",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Notes/2023-01-10.md",
+                "file": "Docker/Docker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Notes/2023-01-10.md",
+                "file": "Docker/Docker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily Notes/2023-01-10.md"
+                "file": "Docker/Docker.md"
               }
             }
           }
@@ -158,14 +202,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb14d2e2a4f2662d",
+  "active": "7a58dba5e7cd25d8",
   "lastOpenFiles": [
-    "Obsidian Tutorial/Obsiadian Tutorial.md",
-    "Obsidian Tutorial/Zettelkasten.md",
-    "Obsidian Tutorial/Extraction.md",
-    "Obsidian Tutorial/ree.png",
-    "Obsidian Tutorial/Untitled.canvas",
-    "Obsidian Tutorial/obsidian_link.md",
-    "Daily Notes/2023-01-09.md"
+    "books/hands_on_network_programming/tcp_client.md",
+    "books/hands_on_network_programming/pppppp.md",
+    "Untitled.md",
+    "books/hands_on_network_programming/hands_on_network_programming_with_c.canvas",
+    "Daily Notes/2023-01-11.md",
+    "books/hands_on_network_programming/accept.md",
+    "hands_on_c_networking_functions.canvas",
+    "books/hands_on_network_programming/struct addrinfo.md",
+    "books/hands_on_network_programming/connect.md",
+    "books/hands_on_network_programming/bind.md"
   ]
 }
