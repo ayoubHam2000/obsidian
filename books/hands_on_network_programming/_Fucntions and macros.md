@@ -7,6 +7,7 @@
 * [[connect]]
 * [[bind]]
 * [[listen]]
+* [[recv]]
 
 ### macros
 * FD_ZERO

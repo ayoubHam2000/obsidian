@@ -13,13 +13,37 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Docker/_Docker.canvas",
+                "file": "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
                 "viewState": {
-                  "x": -122.51926286509064,
-                  "y": 184.64610405806502,
-                  "zoom": -0.038899152738079576,
+                  "x": -2168.7146073451677,
+                  "y": -1656.1700953143331,
+                  "zoom": 0.27481286807975924,
                   "snapToGrid": false
                 }
+              }
+            }
+          },
+          {
+            "id": "d6817f13af380427",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/hands_on_network_programming/recv.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e91b1d132190b13b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/hands_on_network_programming/select.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -179,7 +203,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -245,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/_Docker.canvas",
+                "file": "books/hands_on_network_programming/recv.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -262,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/_Docker.canvas",
+                "file": "books/hands_on_network_programming/recv.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -285,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/_Docker.canvas"
+                "file": "books/hands_on_network_programming/recv.md"
               }
             }
           }
@@ -306,17 +331,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a58dba5e7cd25d8",
+  "active": "d6817f13af380427",
   "lastOpenFiles": [
+    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
+    "books/hands_on_network_programming/select.md",
+    "Docker/_Docker.canvas",
     "Docker/Docker commands.md",
     "Docker/notes from youtubeVideo1.md",
     "Docker/notes from youtubeVideo2.md",
-    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "Docker/_Docker.canvas",
     "Obsidian Tutorial/Extraction.md",
     "Obsidian Tutorial/Obsiadian Tutorial.md",
     "Docker/general notes.md",
-    "Docker/what is a container ?.md",
-    "books/hands_on_network_programming/_Structures.md"
+    "Docker/what is a container ?.md"
   ]
 }
