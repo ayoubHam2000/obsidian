@@ -36,6 +36,8 @@
 	- docker exec -it `:get the terminal of the container -it stands for interactive terminal `
 	- docker exec `[name]` `[command]` `:run a command inside the container`
 - docker images
+- docker image
+	- docker image build -t myapp .
 - docker volume
 	- docker volume create `[name]`
 - docker network

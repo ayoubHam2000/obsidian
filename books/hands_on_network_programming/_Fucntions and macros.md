@@ -1,13 +1,14 @@
 #functions/c/network
-* [[select]]
-* [[accept]]
 * [[getaddrinfo]]
 * [[getnameinfo]]
 * [[socket]]
 * [[connect]]
 * [[bind]]
 * [[listen]]
+* [[select]]
+* [[accept]]
 * [[recv]]
+* [[send]]
 
 ### macros
 * FD_ZERO

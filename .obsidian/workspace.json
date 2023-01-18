@@ -13,42 +13,18 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
+                "file": "Docker/_Docker.canvas",
                 "viewState": {
-                  "x": -2168.7146073451677,
-                  "y": -1656.1700953143331,
-                  "zoom": 0.27481286807975924,
+                  "x": -515,
+                  "y": 73.0544189453127,
+                  "zoom": 0,
                   "snapToGrid": false
                 }
               }
             }
           },
           {
-            "id": "d6817f13af380427",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/hands_on_network_programming/recv.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e91b1d132190b13b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/hands_on_network_programming/select.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27531e340f3a010c",
+            "id": "213c6761129d677c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,31 +36,7 @@
             }
           },
           {
-            "id": "89ccc21c14345cf8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/notes from youtubeVideo1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bea9eb2b14ace0be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/Docker commands.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6ef401fef896e61c",
+            "id": "08c3c39f4be14267",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -94,117 +46,10 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "5437c352789a9ce4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-                "viewState": {
-                  "x": -2287.8273848150548,
-                  "y": -817.5166494360841,
-                  "zoom": -0.7554768454619073,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "fb1f97df8c10122d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/what is a container ?.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e1dcaa277a93e95a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/notes from youtubeVideo1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0db7939011548993",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker/general notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b883e15c0a60f2ac",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b5c1ec7fe00a11e4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/hands_on_network_programming/bind.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "17b180d3eb349717",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/hands_on_network_programming/connect.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "30c5d3642c5ea724",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/hands_on_network_programming/socket.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5279181d722a7301",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/hands_on_network_programming/getaddrinfo.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 1,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -270,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/hands_on_network_programming/recv.md",
+                "file": "Docker/Docker commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/hands_on_network_programming/recv.md",
+                "file": "Docker/Docker commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/hands_on_network_programming/recv.md"
+                "file": "Docker/Docker commands.md"
               }
             }
           }
@@ -331,17 +176,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d6817f13af380427",
+  "active": "213c6761129d677c",
   "lastOpenFiles": [
-    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "books/hands_on_network_programming/select.md",
-    "Docker/_Docker.canvas",
-    "Docker/Docker commands.md",
-    "Docker/notes from youtubeVideo1.md",
     "Docker/notes from youtubeVideo2.md",
-    "Obsidian Tutorial/Extraction.md",
-    "Obsidian Tutorial/Obsiadian Tutorial.md",
-    "Docker/general notes.md",
-    "Docker/what is a container ?.md"
+    "Docker/Docker commands.md",
+    "Docker/_Docker.canvas",
+    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
+    "books/hands_on_network_programming/notes from ch03.md",
+    "books/hands_on_network_programming/send.md",
+    "books/hands_on_network_programming/recv.md",
+    "books/hands_on_network_programming/difference between bind and connect.md",
+    "books/hands_on_network_programming/struct sockaddr.md",
+    "books/hands_on_network_programming/struct sockaddr_storage.md"
   ]
 }
