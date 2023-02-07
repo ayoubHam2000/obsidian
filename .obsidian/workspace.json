@@ -4,51 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "63610c343dac0a44",
+        "id": "4f8e9946dcc65c20",
         "type": "tabs",
         "children": [
           {
-            "id": "7a58dba5e7cd25d8",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Docker/_Docker.canvas",
-                "viewState": {
-                  "x": -515,
-                  "y": 73.0544189453127,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
-            "id": "213c6761129d677c",
+            "id": "47fd8d92b41035b3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/Docker commands.md",
+                "file": "books/hands_on_network_programming/getaddrinfo.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "08c3c39f4be14267",
+            "id": "c896b3a1a927b208",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker/notes from youtubeVideo2.md",
+                "file": "books/hands_on_network_programming/getaddrinfo.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -115,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker/Docker commands.md",
+                "file": "books/hands_on_network_programming/_Fucntions and macros.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker/Docker commands.md",
+                "file": "books/hands_on_network_programming/_Fucntions and macros.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Docker/Docker commands.md"
+                "file": "books/hands_on_network_programming/_Fucntions and macros.md"
               }
             }
           }
@@ -176,17 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "213c6761129d677c",
+  "active": "47fd8d92b41035b3",
   "lastOpenFiles": [
-    "Docker/notes from youtubeVideo2.md",
-    "Docker/Docker commands.md",
-    "Docker/_Docker.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "books/hands_on_network_programming/notes from ch03.md",
-    "books/hands_on_network_programming/send.md",
-    "books/hands_on_network_programming/recv.md",
-    "books/hands_on_network_programming/difference between bind and connect.md",
+    "books/hands_on_network_programming/struct addrinfo.md",
+    "books/hands_on_network_programming/addrinfo_flags.md",
+    "books/hands_on_network_programming/getaddrinfo.md",
+    "books/hands_on_network_programming/_CH05_P124_HostnameResolution And DNS.md",
+    "books/hands_on_network_programming/_CH04_P102_UDP.md",
+    "books/hands_on_network_programming/select.md",
+    "books/hands_on_network_programming/recvfrom.md",
     "books/hands_on_network_programming/struct sockaddr.md",
-    "books/hands_on_network_programming/struct sockaddr_storage.md"
+    "books/hands_on_network_programming/sendto.md"
   ]
 }

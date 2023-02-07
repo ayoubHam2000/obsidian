@@ -9,9 +9,12 @@
 * [[accept]]
 * [[recv]]
 * [[send]]
+* [[recvfrom]]
+* [[sendto]]
 
 ### macros
 * FD_ZERO
 * FD_SET
 * FD_CLR()
 * FD_ISSET()
+* [[AI_PASSIVE]]

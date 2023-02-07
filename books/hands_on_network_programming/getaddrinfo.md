@@ -1,4 +1,5 @@
 `getaddrinfo()` is a function provided by the C standard library that is used to resolve host names and service names to socket addresses. It is a more modern and versatile version of the older `gethostbyname()` and `getservbyname()` functions.
+
 * `getaddrinfo()` is very flexible about how it takes inputs. The hostname could be a `domain` name like example.com or an IP address such as 192.168.17.23 or ::1. The `port `can be a number, such as 80, or a protocol, such as http.
      
 The `getaddrinfo()` function takes the following arguments:
@@ -6,11 +7,11 @@ The `getaddrinfo()` function takes the following arguments:
 int getaddrinfo(const char *node, const char *service, const struct addrinfo *hints, struct addrinfo **res);
 ```
 -   `node` is a pointer to a null-terminated string that contains the host name or IP address to be resolved.
--   `service` is a pointer to a null-terminated string that contains the service name or port number to be resolved.
+-   `service` is a pointer to a null-terminated string that contains the service name or port number to be resolved. the null pointer can be passed in for service, in which case, the resulting address is set to port 0.
 -   `hints` is a pointer to a `struct addrinfo` object that contains hints and constraints for the address resolution.
 -   `res` is a pointer to a pointer to a `struct addrinfo` object that will be filled with a linked list of `addrinfo` structures containing the resolved addresses.
 
-The `getaddrinfo()` function returns a `0` if the host and service are successfully resolved, otherwise, returns non-zero value which should be passed to `gai_strerror()` function to get the corresponding error message.
+The `getaddrinfo()` function `returns` a `0` if the host and service are successfully resolved, otherwise, returns non-zero value which should be passed to `gai_strerror()` function to get the corresponding error message.
 
 The `hints` argument is optional, but it can be used to specify the desired address family (e.g., `AF_INET` for IPv4 or `AF_INET6` for IPv6), socket type (e.g., `SOCK_STREAM` for TCP or `SOCK_DGRAM` for UDP), and protocol (e.g., `IPPROTO_TCP` for TCP or `IPPROTO_UDP` for UDP).
 

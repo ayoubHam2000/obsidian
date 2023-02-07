@@ -4,7 +4,14 @@ The `connect()` function takes the following arguments:
 ```C
 int connect(int sockfd, const struct sockaddr *addr, socklen_t addrlen);
 ```
--   `sockfd` is the socket descriptor returned by the `socket()` function.
+If the socket _sockfd_ is of type **SOCK_DGRAM**, then _addr_ is the
+       address to which datagrams are sent by default, and the only
+       address from which datagrams are received.  If the socket is of
+       type **SOCK_STREAM** or **SOCK_SEQPACKET**, this call attempts to make a
+       connection to the socket that is bound to the address specified
+       by _addr_.
+      
+- `sockfd` is the socket descriptor returned by the `socket()` function.
 -   `addr` is a pointer to a `struct sockaddr` object that contains the address of the remote host. It typically points to a `struct sockaddr_in` (IPv4) or `struct sockaddr_in6` (IPv6) structure.
 -   `addrlen` is the size of the `struct sockaddr` object, usually `sizeof(struct sockaddr_in)` or `sizeof(struct sockaddr_in6)`.
 

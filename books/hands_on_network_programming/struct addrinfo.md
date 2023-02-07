@@ -14,13 +14,13 @@ struct addrinfo {
 };
 ```
 
-`ai_flags` field can contain different flags that modify the behavior of the `getaddrinfo()` function.
+`ai_flags` field can contain different flags that modify the behavior of the `getaddrinfo()` function. see [[addrinfo_flags]]
 
-`ai_family` field defines the protocol family of the address, such as `AF_INET` for IPv4 or `AF_INET6` for IPv6.
+`ai_family` field defines the protocol family of the address, such as `AF_INET` for IPv4 or `AF_INET6` for IPv6. or AF_UNSPEC for any address family. AF_UNSPEC is defined as 0.
 
-`ai_socktype` field defines the socket type, such as `SOCK_STREAM` for TCP or `SOCK_DGRAM` for UDP.
+`ai_socktype` field defines the socket type, such as `SOCK_STREAM` for TCP or `SOCK_DGRAM` for UDP. Setting ai_socktype to 0 indicates that the address could be used for either.
 
-`ai_protocol` field defines the protocol to use, such as `IPPROTO_TCP` for TCP or `IPPROTO_UDP` for UDP.
+`ai_protocol` field defines the protocol to use, such as `IPPROTO_TCP` for TCP or `IPPROTO_UDP` for UDP. ai_protocol should be left to 0. Strictly speaking, TCP isn't the only streaming protocol supported by the socket interface, and UDP isn't the only datagram protocol supported. ai_protocol is used to disambiguate, but it's not needed for our purposes.
 
 `ai_addrlen` field is the length of the socket address stored in `ai_addr`
 
