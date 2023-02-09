@@ -4,3 +4,4 @@
 -   `AI_PASSIVE`: used to indicate that the returned address should be used for bind() to specify the socket's local address.
 -   `AI_CANONNAME`: requests the function to return the canonical name for the host in the `ai_canonname` field.
 -   `AI_V4MAPPED`: requests that IPv4-mapped IPv6 addresses be returned when no IPv6 addresses are found.
+- `AI_ALL`: The value of "AI_ALL" is a bitwise OR of multiple flags that request that both IPv4 and IPv6 addresses be returned.

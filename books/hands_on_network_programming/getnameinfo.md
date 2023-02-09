@@ -10,7 +10,7 @@ int getnameinfo(const struct sockaddr *sa, socklen_t salen, char *host, size_t h
 -   `hostlen` is the size of the `host` buffer
 -   `serv` is a buffer that will be filled with the service name or port number associated with the socket address
 -   `servlen` is the size of the `serv` buffer
--   `flags` is a bit-mask that can be used to modify the behavior of the function
+-   `flags` is a bit-mask that can be used to modify the behavior of the function see [[getnameinfo_flags]]
 
 The `getnameinfo()` function returns a 0 if the host name and service name are successfully obtained, otherwise, returns a non-zero value which should be passed to `gai_strerror()` function to get the corresponding error message.
 

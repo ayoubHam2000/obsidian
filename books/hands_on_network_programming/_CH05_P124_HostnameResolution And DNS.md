@@ -44,4 +44,53 @@ What are the implications of using insecure DNS? First, if DNS is not authentica
 
 *DNS over HTTPS (DoH)* is a protocol that provides name resolution over HTTPS. HTTPS provides strong security guarantees, including resistance to interception. We cover HTTPS in Chapter 9, Loading Secure Web Pages with HTTPS and OpenSSL, and Chapter 10, Implementing a Secure Web Server.
 
-[[struct addrinfo]] and [[getaddrinfo]]
+## The DNS protocol
+
+When a client wants to resolve a hostname into an IP address, it sends a DNS query to a DNS server. This is typically done over UDP using port 53. The DNS server then performs the lookup, if possible, and returns an answer.
+
+If the query (or, more commonly, the answer) is too large to fit into one UDP packet, then the query can be performed over TCP instead of UDP. In this case, the size of the query is sent over TCP as a 16-bit value, and then the query itself is sent. This is called `TCP fallback` or `DNS transport over TCP`. However, UDP works for most cases, and UDP is how DNS is used the vast majority of the time.
+![[Screen Shot 2023-02-08 at 11.08.22 AM.png|400]]
+![[Screen Shot 2023-02-08 at 11.08.32 AM.png|400]]
+
+`ID` is any 16-bit value that is used to identify the DNS message. The client is allowed to put any 16 bits into the DNS query, and the DNS server copies those same 16 bits into the DNS response ID. This is useful to allow the client to match up which response is in reply to which query, in cases where the client is sending multiple queries.
+`QR` is a 1-bit field. It is set to 0 to indicate a DNS query or 1 to indicate a DNS response.  
+`Opcode` is a 4-bit field, which specifies the type of query. 0 indicates a standard query. 1 indicates a reverse query to resolve an IP address into a name. 2 indicates a server status request. Other values (3 through 15) are reserved.
+`AA` indicates an authoritative answer.  
+`TC` indicates that the message was truncated. In this case, it should be re-sentusing TCP.
+`RD` should be set if recursion is desired. We leave this bit set to indicate that we want the DNS server to contact additional servers until it can complete our request.
+`RA` indicates in a response whether the DNS server supports recursion. 
+`Z`is unused and should be set to 0.
+`RCODE` is set in a DNS response to indicate the error condition.
+`QDCOUNT`, `ANCOUNT`, `NSCOUNT`, and `ARCOUNT` indicate the number of records in their corresponding sections. `QDCOUNT` indicates the number of questions in a DNS query. It is interesting that `QDCOUNT` is a 16-bit value capable of storing large numbers, and yet no real-world DNS server allows more than one question per message. `ANCOUNT` indicates the number of answers, and it is common for a DNS server to return multiple answers in one message.
+
+* Whenever we read a multi-byte number from a DNS message, we should be aware that it's in big-endian format (or so-called network byte order).
+![[Screen Shot 2023-02-08 at 11.12.59 AM.png|300]]
+![[Screen Shot 2023-02-08 at 11.13.25 AM.png|300]]
+![[Screen Shot 2023-02-08 at 11.13.36 AM.png|300]]
+**A simple DNS query**
+A hand-constructed DNS for example.com in C is as follows:
+```C
+char dns_query[] = {0xAB, 0xCD, /* ID */
+   0x01, 0x00, /* Recursion */
+   0x00, 0x01, /* QDCOUNT */
+   0x00, 0x00, /* ANCOUNT */
+   0x00, 0x00, /* NSCOUNT */
+   0x00, 0x00, /* ARCOUNT */
+	7, 'e', 'x', 'a', 'm', 'p', 'l', 'e', /* label */
+                       3, 'c', 'o', 'm', /* label */
+                       0, /* End of name */
+                       0x00, 0x01, /* QTYPE = A */
+                       0x00, 0x01 /* QCLASS */
+
+};
+```
+
+
+## Notes
+
+* In the domain name system (DNS), a single hostname (such as "[www.example.com](http://www.example.com/)") can be associated with multiple IP addresses, while a single IP address can only be associated with one hostname.
+[[struct addrinfo]], [[getaddrinfo]], [[getnameinfo]]
+
+## Next
+
+* not complete yet how to implement and send a DNS query

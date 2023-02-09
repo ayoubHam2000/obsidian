@@ -1,0 +1,4 @@
+* `NI_NAMEREQD` requires getnameinfo() to return a hostname and not an address. By default, getnameinfo() tries to return a hostname but returns an address if it can't. NI_NAMEREQD will cause an error to be returned if the hostname cannot be determined.  
+* `NI_DGRAM` specifies that the service is UDP-based rather than TCP-based. This is only important for ports that have different standard services for UDP versus TCP. This flag is ignored if `NI_NUMERICSERV` is set.
+* `NI_NUMERICHOST` requests that getnameinfo() returns the IP address and not a hostname. 
+* `NI_NUMERICSERV` requests that getnameinfo() returns the port number and not a service name.

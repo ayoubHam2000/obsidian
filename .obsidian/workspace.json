@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "47fd8d92b41035b3",
+            "id": "926a6a6dcdf6a89a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/hands_on_network_programming/getaddrinfo.md",
+                "file": "books/hands_on_network_programming/select.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c896b3a1a927b208",
+            "id": "da5ceebf4b6de20a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/hands_on_network_programming/getaddrinfo.md",
+                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20",
+                "query": "AI_PASSIVE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/hands_on_network_programming/_Fucntions and macros.md",
+                "file": "books/hands_on_network_programming/select.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/hands_on_network_programming/_Fucntions and macros.md",
+                "file": "books/hands_on_network_programming/select.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/hands_on_network_programming/_Fucntions and macros.md"
+                "file": "books/hands_on_network_programming/select.md"
               }
             }
           }
@@ -159,17 +160,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47fd8d92b41035b3",
+  "active": "926a6a6dcdf6a89a",
   "lastOpenFiles": [
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
+    "books/hands_on_network_programming/_CH07_P196_Building a Simple Web Server.md",
+    "books/hands_on_network_programming/AI_PASSIVE.md",
+    "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
+    "books/hands_on_network_programming/_Fucntions and macros.md",
+    "books/hands_on_network_programming/_CH05_P124_HostnameResolution And DNS.md",
     "books/hands_on_network_programming/struct addrinfo.md",
     "books/hands_on_network_programming/addrinfo_flags.md",
-    "books/hands_on_network_programming/getaddrinfo.md",
-    "books/hands_on_network_programming/_CH05_P124_HostnameResolution And DNS.md",
-    "books/hands_on_network_programming/_CH04_P102_UDP.md",
-    "books/hands_on_network_programming/select.md",
-    "books/hands_on_network_programming/recvfrom.md",
-    "books/hands_on_network_programming/struct sockaddr.md",
-    "books/hands_on_network_programming/sendto.md"
+    "books/hands_on_network_programming/getnameinfo.md",
+    "books/hands_on_network_programming/getnameinfo_flags.md"
   ]
 }
