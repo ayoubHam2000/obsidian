@@ -11,6 +11,7 @@
 * [[send]]
 * [[recvfrom]]
 * [[sendto]]
+* [[pull]]
 
 ### macros
 * FD_ZERO

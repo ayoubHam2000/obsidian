@@ -8,19 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "926a6a6dcdf6a89a",
+            "id": "da5ceebf4b6de20a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "books/hands_on_network_programming/select.md",
-                "mode": "source",
-                "source": false
+                "file": "Web/Nginx/_Nginx.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 123.14212646484384,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
               }
             }
           },
           {
-            "id": "da5ceebf4b6de20a",
+            "id": "f0416ed541dc6477",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,6 +36,7 @@
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -61,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AI_PASSIVE",
+                "query": "tag:#functions/c/network",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +83,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/hands_on_network_programming/select.md",
+                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/hands_on_network_programming/select.md",
+                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/hands_on_network_programming/select.md"
+                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md"
               }
             }
           }
@@ -160,17 +164,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "926a6a6dcdf6a89a",
+  "active": "f0416ed541dc6477",
   "lastOpenFiles": [
-    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "books/hands_on_network_programming/_CH07_P196_Building a Simple Web Server.md",
-    "books/hands_on_network_programming/AI_PASSIVE.md",
     "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
     "books/hands_on_network_programming/_Fucntions and macros.md",
-    "books/hands_on_network_programming/_CH05_P124_HostnameResolution And DNS.md",
-    "books/hands_on_network_programming/struct addrinfo.md",
-    "books/hands_on_network_programming/addrinfo_flags.md",
-    "books/hands_on_network_programming/getnameinfo.md",
-    "books/hands_on_network_programming/getnameinfo_flags.md"
+    "Web/Nginx/_Nginx.canvas",
+    "Web/Docker/Docker commands.md",
+    "Web/Docker/_Docker.canvas",
+    "Web/CGI/_CGI.md",
+    "Web/CGI/CGI.canvas",
+    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
+    "Web/Nginx/Nginx.md"
   ]
 }

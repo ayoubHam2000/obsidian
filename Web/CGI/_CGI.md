@@ -1,0 +1,1 @@
+Using the GET method any data passed to a CGI is encoded in the URL, you may have seen this before with URLs such as _/cgi-bin/cgi?Variable=value_. The Question Mark in a URL marks the beginning of data or the _query string_. This is recovered as the environment variable _QUERY_STRING_.
