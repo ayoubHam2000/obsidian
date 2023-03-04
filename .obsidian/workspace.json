@@ -8,35 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "da5ceebf4b6de20a",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Web/Nginx/_Nginx.canvas",
-                "viewState": {
-                  "x": 0,
-                  "y": 123.14212646484384,
-                  "zoom": 0,
-                  "snapToGrid": false
-                }
-              }
-            }
-          },
-          {
             "id": "f0416ed541dc6477",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
+                "file": "Obsidian Tutorial/Zettelkasten.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c23a64f4961b97bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/introduction_to_algorithms/Algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -103,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
+                "file": "Obsidian Tutorial/Zettelkasten.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
+                "file": "Obsidian Tutorial/Zettelkasten.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md"
+                "file": "Obsidian Tutorial/Zettelkasten.md"
               }
             }
           }
@@ -166,14 +161,38 @@
   },
   "active": "f0416ed541dc6477",
   "lastOpenFiles": [
+    "Obsidian Tutorial/Untitled.canvas",
+    "Obsidian Tutorial/ree.png",
+    "Obsidian Tutorial/obsidian_link.md",
+    "Obsidian Tutorial/Obsiadian Tutorial.md",
+    "Obsidian Tutorial/Extraction.md",
+    "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
+    "books/introduction_to_algorithms/Untitled.canvas",
+    "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
+    "books/introduction_to_algorithms/Algorithm.md",
+    "books/introduction_to_algorithms/Key Words.md",
+    "books/introduction_to_algorithms/Traveling Salesperson Problem.md",
+    "Web/Docker/general notes.md",
+    "Web/Docker/docker compose.md",
+    "Web/Docker/Docker commands.md",
+    "Web/Docker/_Notes.md",
+    "Web/Docker/_Docker_main.md",
+    "Web/Docker/_Docker resources.md",
+    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
+    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/attachments/David Flanagan - JavaScript_ The Definitive Guide_ Master the World's Most-Used Programming Language (2020, O'Reilly Media, Inc.) - libgen.li.epub",
+    "books/JavaScript                                 The Definitive Guide/attachments",
+    "Web/CGI/CGI.canvas",
+    "Web/Docker/_Docker.canvas",
+    "books/JavaScript                                 The Definitive Guide",
+    "books/introduction_to_algorithms/attachments/P!=NP.png",
+    "books/introduction_to_algorithms/attachments",
+    "books/hands_on_network_programming/_CH05_P124_HostnameResolution And DNS.md",
     "books/hands_on_network_programming/_CH07_P196_Building a Simple Web Server.md",
     "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
-    "books/hands_on_network_programming/_Fucntions and macros.md",
     "Web/Nginx/_Nginx.canvas",
-    "Web/Docker/Docker commands.md",
-    "Web/Docker/_Docker.canvas",
+    "books/hands_on_network_programming/_Fucntions and macros.md",
     "Web/CGI/_CGI.md",
-    "Web/CGI/CGI.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "Web/Nginx/Nginx.md"
   ]

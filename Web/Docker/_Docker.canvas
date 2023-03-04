@@ -1,10 +1,11 @@
 {
 	"nodes":[
-		{"id":"e4019e6b5a7911c3","x":-586,"y":127,"width":250,"height":57,"type":"text","text":"# Docker"},
-		{"id":"71f5fdfdb2e06e09","x":-636,"y":312,"width":390,"height":521,"type":"file","file":"Web/Docker/_Notes.md"},
-		{"id":"12f6674c358a4320","x":-1179,"y":-88,"width":400,"height":400,"type":"file","file":"Web/Docker/_Docker resources.md"},
-		{"id":"597afaa81f538cd7","x":-586,"y":-404,"width":400,"height":400,"type":"file","file":"Web/Docker/_Docker_main.md"},
-		{"id":"3ca2ae3399cd8ed6","x":-109,"y":-240,"width":1032,"height":1012,"type":"file","file":"Web/Docker/notes from youtubeVideo2.md"}
+		{"type":"text","text":"# Docker","id":"e4019e6b5a7911c3","x":-586,"y":127,"width":250,"height":57},
+		{"type":"file","file":"Web/Docker/_Notes.md","id":"71f5fdfdb2e06e09","x":-636,"y":312,"width":390,"height":521},
+		{"type":"file","file":"Web/Docker/_Docker resources.md","id":"12f6674c358a4320","x":-1179,"y":-88,"width":400,"height":400},
+		{"type":"file","file":"Web/Docker/_Docker_main.md","id":"597afaa81f538cd7","x":-586,"y":-404,"width":400,"height":400},
+		{"type":"file","file":"Web/Docker/notes from youtubeVideo2.md","id":"3ca2ae3399cd8ed6","x":-109,"y":-240,"width":1032,"height":1012},
+		{"id":"fde6025dd06af70e","x":-1200,"y":-604,"width":400,"height":400,"type":"file","file":"Web/Docker/docker compose.md"}
 	],
 	"edges":[
 		{"id":"939a56522d08711e","fromNode":"e4019e6b5a7911c3","fromSide":"bottom","toNode":"71f5fdfdb2e06e09","toSide":"top"},

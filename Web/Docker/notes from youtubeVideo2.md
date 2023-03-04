@@ -197,12 +197,13 @@ In summary, the other layers in a container's filesystem are the read-only layer
 
 If you want to persist data inside a container, you have a couple of options:
 
-1.  **Docker Volumes**: You can use the `-v` or `--volume` flag when running the `docker run` command to create a volume mapping between a directory on the host machine and a directory inside the container. This allows you to persist data outside of the container's filesystem and make it available even if the container is deleted or recreated.
+1.  **Docker Volumes**: You can use the `-v` or `--volume` flag when running the `docker run` command to create a volume mapping between a directory on the host machine and a directory inside the container. This allows you to persist data outside of the container's filesystem and make it available even if the container is deleted or recreated. 
     
-2.  **Named Volumes**: You can use the `docker volume create` command to create a named volume, which can be useful when you want to manage the volume independently of the container. Named volumes can be attached to multiple containers and can be backed up, moved, or migrated more easily.
+2.  **Named Volumes**: You can use the `docker volume create` command to create a named volume, which can be useful when you want to manage the volume independently of the container. Named volumes can be attached to multiple containers and can be backed up, moved, or migrated more easily. `docker volume create mydata`
     
-3.  **Bind Mounts** : You can use the `-v` flag when running the `docker run` command to create a bind mount between a directory on the host machine and a directory inside the container. This allows you to persist data outside of the container's filesystem and make it available even if the container is deleted or recreated.
+3.  **Bind Mounts** : You can use the `-v` flag when running the `docker run` command to create a bind mount between a directory on the host machine and a directory inside the container. This allows you to persist data outside of the container's filesystem and make it available even if the container is deleted or recreated. `docker run -v /path/on/host:/path/in/container myimage`
     
+4.  **Anonymous volumes**: Anonymous volumes are temporary volumes that are created by Docker when a container is started without specifying a named volume or host volume. Anonymous volumes are deleted when the container is removed. `docker run myimage`
 
 It's worth noting that, when you map a host directory to a container directory, any changes made to the files inside the container will be reflected on the host directory, and vice versa.
 
