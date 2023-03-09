@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7016c94a2373ca60","x":-125,"y":-30,"width":250,"height":60,"type":"text","text":"Commands"},
+		{"id":"b79244785c43724a","x":-200,"y":-500,"width":400,"height":400,"type":"file","file":"OperatingSystem/Commands/Debian.md"}
+	],
+	"edges":[]
+}

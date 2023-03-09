@@ -1,4 +1,4 @@
-## What is Docker
+ ## What is Docker
 Docker is a platform that allows developers to easily deploy and run applications in containers. Containers are lightweight, portable environments that can run on any system with a Docker engine installed, making it easy to move applications between different environments. Docker provides a simple and consistent way to package and distribute applications, making it a popular choice for developers and system administrators.
 
 ## what are containers
@@ -199,7 +199,7 @@ If you want to persist data inside a container, you have a couple of options:
 
 1.  **Docker Volumes**: You can use the `-v` or `--volume` flag when running the `docker run` command to create a volume mapping between a directory on the host machine and a directory inside the container. This allows you to persist data outside of the container's filesystem and make it available even if the container is deleted or recreated. 
     
-2.  **Named Volumes**: You can use the `docker volume create` command to create a named volume, which can be useful when you want to manage the volume independently of the container. Named volumes can be attached to multiple containers and can be backed up, moved, or migrated more easily. `docker volume create mydata`
+2.  **Named Volumes**: You can use the `docker volume create` command to create a named volume, which can be useful when you want to manage the volume independently of the container. Named volumes can be attached to multiple containers and can be backed up, moved, or migrated more easily. `docker volume create mydata` => exmaple `... -v mysql_data:/var/lib/mysql`
     
 3.  **Bind Mounts** : You can use the `-v` flag when running the `docker run` command to create a bind mount between a directory on the host machine and a directory inside the container. This allows you to persist data outside of the container's filesystem and make it available even if the container is deleted or recreated. `docker run -v /path/on/host:/path/in/container myimage`
     

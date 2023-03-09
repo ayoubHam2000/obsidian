@@ -4,7 +4,8 @@
 
 ### Key Words
 
-`Online Algorithm` | `instance of a problem`
+`Online Algorithm` | `instance of a problem` | `Key => Satellite data` `record` | 
+`short circuiting` | `quadratic function` | `worst-case running time` | `average-case` | `randomized algorithm` | `rate of growth or order of growth`
 
  ### What is An Algorithm
  
@@ -20,7 +21,21 @@
 
 ### Data structure
 
-* A data structure is a way to store and organize data in order to facilitate access and modiûcations.
+* A data structure is a way to store and organize data in order to facilitate access and modifications.
+
+## Loop Invariant
+
+1. `Initialization`: It is true prior to the ûrst iteration of the loop.
+2. `Maintenance`: If it is true before an iteration of the loop, it remains true before the next iteration.
+3. `Termination`: The loop terminates, and when it terminates, the invariant gives us a useful property that helps show that the algorithm is correct.
+*fast example* => $$ 1.\ A[0] \ should \ hold \ for \ the \ initialization $$ $$ 2.\ from \ A[0: i - 1] \ to \ A[0:i]\ should\ hold $$ $$3.\ because\ the\ loop\ terminate\ and\ (2)\ A[0:n]\ hold $$
+## Analyzing algorithms
+
+Analyzing an algorithm has come to mean predicting the resources that the algo- rithm requires. You might consider resources such as memory, communication bandwidth, or energy consumption.
+
+- Most of this book assumes a generic one-processor, random-access machine `(RAM)`
+- The running time of the algorithm is the sum of running times for each statement executed. A statement that takes c<sub> k</sub> steps to execute and executes m times contributes m.c<sub> k</sub> to the total running time.  We usually denote the running time of an algorithm on an input of size n by T(n) .
+- $$ \theta(n^2) \ theta\ n\text-squared $$ 
 
 ## Notes
 

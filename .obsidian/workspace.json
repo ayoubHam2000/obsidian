@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "4f8e9946dcc65c20",
+        "id": "c41fe4dca3779f6a",
         "type": "tabs",
         "children": [
           {
-            "id": "f0416ed541dc6477",
+            "id": "cae3e85657405a50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Tutorial/Zettelkasten.md",
+                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c23a64f4961b97bd",
+            "id": "7f959c145bbf8964",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/introduction_to_algorithms/Algorithm.md",
+                "file": "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#functions/c/network",
+                "query": "path:lat",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian Tutorial/Zettelkasten.md",
+                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Tutorial/Zettelkasten.md",
+                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Tutorial/Zettelkasten.md"
+                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md"
               }
             }
           }
@@ -159,41 +159,58 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f0416ed541dc6477",
+  "active": "cae3e85657405a50",
   "lastOpenFiles": [
+    "books/JavaScript                                 The Definitive Guide/notes.md",
+    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
+    "books/JavaScript                                 The Definitive Guide/Unicode.md",
+    "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
+    "books/hands_on_network_programming/notes from ch03.md",
+    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-09 at 11.49.59 AM.png",
+    "Math/Probability/Introduction.md",
+    "Math/Probability/_Main.md",
+    "Web/Docker/notes from youtubeVideo2.md",
+    "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
+    "Web/Docker/_Docker.canvas",
+    "Topics/Cursus/Inception.md",
+    "Topics/Cursus",
+    "Topics",
+    "books/introduction_to_algorithms/Algorithm.md",
+    "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
+    "Obsidian Tutorial/LaTeX.pdf",
+    "Obsidian Tutorial/Extraction.md",
+    "Untitled.canvas",
+    "Math/Algebra/Geometric series.md",
+    "Math/Algebra/attachments/geometric-series-formulas-1650451222.png",
+    "Math/Algebra/attachments",
+    "Math/KeyWords/Lambert W Function.md",
+    "Math/Algebra",
+    "Math/Probability",
+    "Math/KeyWords",
+    "Math/KeyWords/Taylor series.md",
+    "OperatingSystem/Commands/Untitled.canvas",
+    "Obsidian Tutorial/attachments/pexels-matthew-montrone-1324803.jpg",
+    "Web/Docker/Docker commands.md",
+    "Web/Docker/docker compose.md",
+    "Web/Docker/docker --restart.md",
+    "books/introduction_to_algorithms/Untitled.canvas",
+    "Obsidian Tutorial/Obsiadian Tutorial.md",
+    "Obsidian Tutorial/attachments",
+    "Math",
+    "Web/Docker/Docker Networking.md",
+    "OperatingSystem/Commands/Debian.md",
+    "Web/Docker/attachments/Screen Shot 2023-03-04 at 4.50.12 PM.png",
+    "Obsidian Tutorial/Zettelkasten.md",
     "Obsidian Tutorial/Untitled.canvas",
     "Obsidian Tutorial/ree.png",
     "Obsidian Tutorial/obsidian_link.md",
-    "Obsidian Tutorial/Obsiadian Tutorial.md",
-    "Obsidian Tutorial/Extraction.md",
-    "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
-    "books/introduction_to_algorithms/Untitled.canvas",
-    "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
-    "books/introduction_to_algorithms/Algorithm.md",
     "books/introduction_to_algorithms/Key Words.md",
     "books/introduction_to_algorithms/Traveling Salesperson Problem.md",
-    "Web/Docker/general notes.md",
-    "Web/Docker/docker compose.md",
-    "Web/Docker/Docker commands.md",
-    "Web/Docker/_Notes.md",
-    "Web/Docker/_Docker_main.md",
-    "Web/Docker/_Docker resources.md",
-    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
-    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
-    "books/JavaScript                                 The Definitive Guide/attachments/David Flanagan - JavaScript_ The Definitive Guide_ Master the World's Most-Used Programming Language (2020, O'Reilly Media, Inc.) - libgen.li.epub",
-    "books/JavaScript                                 The Definitive Guide/attachments",
     "Web/CGI/CGI.canvas",
-    "Web/Docker/_Docker.canvas",
-    "books/JavaScript                                 The Definitive Guide",
     "books/introduction_to_algorithms/attachments/P!=NP.png",
-    "books/introduction_to_algorithms/attachments",
-    "books/hands_on_network_programming/_CH05_P124_HostnameResolution And DNS.md",
-    "books/hands_on_network_programming/_CH07_P196_Building a Simple Web Server.md",
-    "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
     "Web/Nginx/_Nginx.canvas",
-    "books/hands_on_network_programming/_Fucntions and macros.md",
-    "Web/CGI/_CGI.md",
-    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "Web/Nginx/Nginx.md"
+    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas"
   ]
 }

@@ -1,3 +1,10 @@
+ [[notes]]
+ [[Unicode]]
+ [[Optional Semicolons]]
+ [[JavaScript types]]
+
+## Tour Of JavaScript
+
 ```js
 let x; // Declare a variable named x.
 x = 0; // Now the variable x has the value 0  
@@ -46,7 +53,17 @@ let data = {
 	trial2: [[2,3], [4,5]]
 	};
 
-
+// Template Literals
+// string literals can be delimited with backticks
+let errorMessage = `\
+\u2718 Test failure at ${filename}:${linenumber}:
+${exception.message}
+Stack trace:
+${exception.stack}
+`;
+`\n`.length // => 1: the string has a single newline character
+String.raw`\n`.length // => 2: a backslash character and the letter n
+// A powerful but less commonly used feature of template literals is that, if a function name (or “tag”) comes right before the opening backtick, then the text and the values of the expressions within the template literal are passed to the function. like in that last example raw`\n`
 ```
 
 ## Expression
@@ -97,6 +114,7 @@ let a = []; // Create an empty array
 a.push(1,2,3); // The push() method adds elements to an array
 a.reverse(); // Another method: reverse the order of elements
 
+let points = [ {x: 0, y: 0}, {x:1,y:1} ];
 // We can define our own methods, too. The "this" keyword refers to the object
 // on which the method is defined: in this case, the points array from earlier.
 points.dist = function() { // Define a method to compute distance between points
@@ -107,5 +125,268 @@ points.dist = function() { // Define a method to compute distance between points
 	return Math.sqrt(a*a + b*b);
 };
 points.dist()
+
+
+//Loop over array, assigning each element to x.
+function sun(array){
+	for(let x of array) {
+		sum += x; 
+	}
+}
+
+
+// This class extends Map so that the get() method returns the specified
+class DefaultMap extends Map {
+constructor(defaultValue) {
+	super();
+		// Invoke superclass constructor
+		this.defaultValue = defaultValue; // Remember the default value
+	}
+	get(key) {
+		if (this.has(key)) {// value instead of null when the key is not in the map
+			return super.get(key);
+		}
+		else {
+			return this.defaultValue;
+		}
+	}
+}
+
+// Convert the Map to an array of [key,value] arrays
+letterCounts = new DefaultMap(0);
+let entries = [...this.letterCounts];
+
 ```
 
+## Math
+
+```js
+x = 0xff
+x = 0b10101
+x = 0o7854
+x = 20
+x = 2.33e-10
+x = .33e-10
+x = .33
+x = 1_000_000
+x = 0xff_ff
+x = 2**68 //ES2016 adds ** for expo‐nentiation
+x = 10n //ES2020 BIG Int
+x = 0b10n
+Infinity
+Number.POSITIVE_INFINITY
+NaN
+Number.NaN
+
+//------
+
+Math.pow(2,53) // => 9007199254740992: 2 to the power 53
+Math.round(.6) // => 1.0: round to the nearest integer
+Math.ceil(.6) // => 1.0: round up to an integer
+Math.floor(.6) // => 0.0: round down to an integer
+Math.abs(-5) // => 5: absolute value
+Math.max(x,y,z) // Return the largest argument
+Math.min(x,y,z) // Return the smallest argument
+Math.random() // Pseudo-random number x where 0 <= x < 1.0
+Math.PI // π: circumference of a circle / diameter
+Math.E // e: The base of the natural logarithm
+Math.sqrt(3) // => 3**0.5: the square root of 3
+Math.pow(3, 1/3) // => 3**(1/3): the cube root of 3
+Math.sin(0) // Trigonometry: also Math.cos, Math.atan, etc.
+Math.log(10) // Natural logarithm of 10
+Math.log(100)/Math.LN10 // Base 10 logarithm of 100
+Math.log(512)/Math.LN2 // Base 2 logarithm of 512
+Math.exp(3) // Math.E cubed
+//---
+
+Math.cbrt(27) // => 3: cube root
+Math.hypot(3, 4) // => 5: square root of sum of squares of all arguments
+Math.log10(100) // => 2: Base-10 logarithm
+Math.log2(1024) // => 10: Base-2 logarithm
+Math.log1p(x) // Natural log of (1+x); accurate for very small x
+Math.expm1(x) // Math.exp(x)-1; the inverse of Math.log1p()
+Math.sign(x) // -1, 0, or 1 for arguments <, ==, or > 0
+Math.imul(2,3) // => 6: optimized multiplication of 32-bit integers
+Math.clz32(0xf) // => 28: number of leading zero bits in a 32-bit integer
+Math.trunc(3.9) // => 3: convert to an integer by truncating fractional part
+Math.fround(x) // Round to nearest 32-bit float number
+Math.sinh(x) // Hyperbolic sine. Also Math.cosh(), Math.tanh()
+Math.asinh(x) // Hyperbolic arcsine. Also Math.acosh(), Math.atanh()
+//---
+Number.parseInt() // Same as the global parseInt() function
+Number.parseFloat() // Same as the global parseFloat() function
+Number.isNaN(x) // Is x the NaN value? or x != x
+Number.isFinite(x) // Is x a number and finite?
+Number.isInteger(x) // Is x an integer?
+Number.isSafeInteger(x) // Is x an integer -(2**53) < x < 2**53?
+Number.MIN_SAFE_INTEGER // => -(2**53 - 1)
+Number.MAX_SAFE_INTEGER // => 2**53 - 1
+Number.EPSILON // => 2**-52: smallest difference between numbers
+
+
+// Arithmetic in JavaScript does not raise errors in cases of overflow,
+// underflow, or division by zero.
+// (Overflow) -> Infinity or -Infinity.
+// (Underflow) -> 0 or -0
+// n / 0 -> Infinity
+// 0 / 0 -> NaN
+// Infinity / Infinity -> NaN
+
+/*
+The not-a-number value has one unusual feature in JavaScript: it does not compare
+equal to any other value, including itself. This means that you can’t write x===NaN to determine whether the value of a variable x is NaN. Instead, you must write x != x or Number.isNaN(x).
+*/
+
+// JavaScript numbers have plenty of precision and can approximate 0.1 very closely. But the fact that this number cannot be represented exactly can lead to problems. Consider this code
+
+let x = .3 - .2;
+let y = .2 - .1;
+x === y // => false: the two values are not the same!
+x === .1 // => false: .3-.2 is not equal to .1
+y === .1  // => true: .2-.1 is equal to .1
+
+//BigInt. ES2020
+// BigInt values can have thousands or even millions of digits,
+// You can use BigInt() as a function for converting regular JavaScript numbers or strings to BigInt values
+BigInt(Number.MAX_SAFE_INTEGER) // => 9007199254740991n
+BigInt(string)
+// Because BigInt and Regular integer are not generilized each other javascript prevent mixed operation between them.
+//Although the standard +, -, *, /, %, and ** operators work with BigInt, it is important to understand that you may not mix operands of type BigInt with regular number operands.
+
+// Comparison operators, by contrast, do work with mixed numeric types
+
+1 < 2n // => true
+2 > 1n // => true
+0 == 0n // => true
+0 === 0n // => false: the === checks for type equality as well
+```
+
+## Date
+
+- JavaScript Dates are objects, but they also have a
+numeric representation as a timestamp that specifies the number of elapsed milli‐
+seconds since January 1, 1970
+```js
+let timestamp = Date.now(); // The current time as a timestamp (a number).
+// 1678377525125
+
+let now = new Date(); // The current time as a Date object.
+// Thu Mar 09 2023 16:58:55 GMT+0100 (GMT+01:00)
+
+let ms = now.getTime(); // Convert to a millisecond timestamp.
+// 1678377525125
+
+let iso = now.toISOString(); // Convert to a string in standard format.
+// '2023-03-09T15:58:55.932Z'
+
+```
+
+## String
+
+- The JavaScript type for representing text is the string. A string is an immutable
+ordered sequence of 16-bit values
+- Unicode characters whose codepoints do not fit in 16 bits are encoded using the rules of UTF-16 as a sequence (known as a `surrogate pair`) of two 16-bit values. This means that a JavaScript string of length 2 (two 16-bit values) might represent only a single Unicode character
+```js
+let euro = "€";
+let love = "💙";
+euro.length // => 1: this character has one 16-bit element
+love.length // => 2: UTF-16 encoding of ❤ is "\ud83d\udc99"
+```
+- Most string-manipulation methods defined by JavaScript operate on 16-bit values,
+not characters. They do not treat `surrogate pairs` specially, they perform no normal‐
+ization of the string, and don’t even ensure that a string is well-formed UTF-16.
+- In ES6, however, strings are iterable, and if you use the `for/of loop` or ... operator
+with a string, `it will iterate the actual characters of the string, not the 16-bit values.`
+- **single or double quotes or backticks (' or " or \`).**
+- String com‐parison is done simply by `comparing the 16-bit values.`
+```js
+
+let s = "Hello, world";
+s.length //the number of 16-bit values it contains
+
+// Obtaining portions of a string
+s.substring(1,4) // => "ell": the 2nd, 3rd, and 4th characters.
+s.slice(1,4) // => "ell": same thing
+s.slice(-3) // => "rld": last 3 characters
+s.split(", ") // => ["Hello", "world"]: split at delimiter string
+
+// Searching a string
+s.indexOf("l") // => 2: position of first letter l
+s.indexOf("l", 3) // => 3: position of first "l" at or after 3
+s.indexOf("zz") // => -1: s does not include the substring "zz"
+s.lastIndexOf("l") // => 10: position of last letter l
+
+// Boolean searching functions in ES6 and later
+s.startsWith("Hell") // => true: the string starts with these
+s.endsWith("!") // => false: s does not end with that
+s.includes("or") // => true: s includes substring "or"
+
+// Creating modified versions of a string
+s.replace("llo", "ya") // => "Heya, world"
+s.toLowerCase() // => "hello, world"
+s.toUpperCase() // => "HELLO, WORLD"
+s.normalize() // Unicode NFC normalization: ES6
+s.normalize("NFD") // NFD normalization. Also "NFKC", "NFKD"
+
+// Inspecting individual (16-bit) characters of a string
+s.charAt(0) // => "H": the first character
+s.charAt(s.length-1) // => "d": the last character
+s.charCodeAt(0) // => 72: 16-bit number at the specified position
+s.codePointAt(0) // => 72: ES6, works for codepoints > 16 bits
+
+// String padding functions in ES2017
+"x".padStart(3) // => " x": add spaces on the left to a length of 3
+"x".padEnd(3) // => "x ": add spaces on the right to a length of 3
+"x".padStart(3, "*") // => "**x": add stars on the left to a length of 3
+"x".padEnd(3, "-") // => "x--": add dashes on the right to a length of 3
+
+// Space trimming functions. trim() is ES5; others ES2019
+" test ".trim() // => "test": remove spaces at start and end
+" test ".trimStart() // => "test ": remove spaces on left. Also trimLeft
+" test ".trimEnd() // => " test": remove spaces at right. Also trimRight
+
+// Miscellaneous string methods
+s.concat("!") // => "Hello, world!": just use + operator instead
+"<>".repeat(5) // => "<><><><><>": concatenate n copies. ES6
+
+let s = "hello, world";
+s[0] // => "h"
+```
+- Remember that strings are immutable in JavaScript. Methods like replace() and
+toUpperCase() return new strings: they do not modify the string on which they are
+invoked.
+
+## RegExp
+
+Text between a pair of slashes constitutes a regular expression literal. The second
+slash in the pair can also be followed by one or more letters, which modify the mean‐
+ing of the pattern. `/[chars]/[chars]`
+```js
+/^HTML/; // Match the letters H T M L at the start of a string
+/[1-9][0-9]*/; // Match a nonzero digit, followed by any # of digits
+/\bjavascript\b/i; // Match "javascript" as a word, case-insensitive
+
+let text = "testing: 1, 2, 3"; // Sample text
+let pattern = /\d+/g; // Matches all instances of one or more digits
+pattern.test(text) // => true: a match exists
+text.search(pattern) // => 9: position of first match
+text.match(pattern) // => ["1", "2", "3"]: array of all matches
+text.replace(pattern, "#") // => "testing: #, #, #"
+text.split(/\D+/) // => ["","1","2","3"]: split on nondigits
+
+```
+
+## Boolean
+- any JavaScript value can be converted to a `boolean value`
+- All other values, including all objects (and arrays) convert to, and work like, true.
+- false, and the six `undefined, null, 0, -0, "", NaN` values that convert to it, are sometimes called `falsy` values, and all other values are called `truthy`. Any time JavaScript expects a boolean value, a falsy value works like false and a truthy value works like true.
+
+## null and undefined
+
+- null is a `language keyword` that evaluates to a special value that is usually used to
+indicate the absence of a value. 
+- undefined is a predefined global constant (not a language keyword like null that represents a deeper kind of absence. It is the value of variables that have not been initialized and the value you get when you query the value of an object property or array element that does not exist. The undefined value is also the return value of functions that do not explicitly return a value and the value of function parameters for which no argument is passed.
+- The equality operator == considers them to be equal. (Use the strict equality operator === to distinguish them.
+- Neither null nor undefined have any properties or methods.
+- you can consider undefined to represent a system-level, `unexpected`, or error-like absence of
+value and null to represent a program-level, normal, or `expected` absence of value

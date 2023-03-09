@@ -1,1 +1,7 @@
-{}
+{
+	"nodes":[
+		{"id":"a1056d9d8340f24e","x":-500,"y":-480,"width":680,"height":440,"type":"file","file":"books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md"},
+		{"id":"33cf49daea799cf7","x":260,"y":-480,"width":250,"height":60,"type":"text","text":"Page: 20"}
+	],
+	"edges":[]
+}

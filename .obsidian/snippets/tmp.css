@@ -5,3 +5,7 @@
 .markdown-preview-view h5{
 color: #1ce4a5;
 }
+
+mjx-math {
+    font-size: 140% !important;
+  }
