@@ -11,9 +11,48 @@
             "id": "cae3e85657405a50",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Web/Docker/_Docker.canvas",
+                "viewState": {
+                  "x": -1080,
+                  "y": -420,
+                  "zoom": 0
+                }
+              }
+            }
+          },
+          {
+            "id": "e39b6a3ed82b7cd6",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+                "file": "Web/Docker/docker compose.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fa5fd667e698e586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/AllOfStatistics/Links.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "13c2a8c3ee77ad67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Redis/_Redis.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,6 +71,7 @@
             }
           }
         ],
+        "currentTab": 3,
         "stacked": true
       }
     ],
@@ -98,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+                "file": "Web/Redis/_Redis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+                "file": "Web/Redis/_Redis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md"
+                "file": "Web/Redis/_Redis.md"
               }
             }
           }
@@ -159,10 +199,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cae3e85657405a50",
+  "active": "13c2a8c3ee77ad67",
   "lastOpenFiles": [
-    "books/JavaScript                                 The Definitive Guide/notes.md",
+    "books/AllOfStatistics/Links.md",
+    "Web/Redis/_Redis.md",
+    "Web/Redis",
+    "books/AllOfStatistics/_ALLOfStatiscrics.md",
+    "Web/Docker/docker compose.md",
+    "books/AllOfStatistics",
+    "Web/Docker/_Docker.canvas",
     "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/notes.md",
     "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
     "books/JavaScript                                 The Definitive Guide/Unicode.md",
     "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
@@ -173,7 +220,6 @@
     "Math/Probability/_Main.md",
     "Web/Docker/notes from youtubeVideo2.md",
     "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
-    "Web/Docker/_Docker.canvas",
     "Topics/Cursus/Inception.md",
     "Topics/Cursus",
     "Topics",
@@ -193,21 +239,15 @@
     "OperatingSystem/Commands/Untitled.canvas",
     "Obsidian Tutorial/attachments/pexels-matthew-montrone-1324803.jpg",
     "Web/Docker/Docker commands.md",
-    "Web/Docker/docker compose.md",
     "Web/Docker/docker --restart.md",
     "books/introduction_to_algorithms/Untitled.canvas",
     "Obsidian Tutorial/Obsiadian Tutorial.md",
-    "Obsidian Tutorial/attachments",
-    "Math",
     "Web/Docker/Docker Networking.md",
     "OperatingSystem/Commands/Debian.md",
     "Web/Docker/attachments/Screen Shot 2023-03-04 at 4.50.12 PM.png",
     "Obsidian Tutorial/Zettelkasten.md",
     "Obsidian Tutorial/Untitled.canvas",
     "Obsidian Tutorial/ree.png",
-    "Obsidian Tutorial/obsidian_link.md",
-    "books/introduction_to_algorithms/Key Words.md",
-    "books/introduction_to_algorithms/Traveling Salesperson Problem.md",
     "Web/CGI/CGI.canvas",
     "books/introduction_to_algorithms/attachments/P!=NP.png",
     "Web/Nginx/_Nginx.canvas",
