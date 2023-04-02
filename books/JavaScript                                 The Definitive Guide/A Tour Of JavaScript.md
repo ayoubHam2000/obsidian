@@ -3,6 +3,8 @@
  [[Unicode]]
  [[Optional Semicolons]]
  [[JavaScript types]]
+ [[Conversions]]
+ [[Operators]]
 
 ## Tour Of JavaScript
 
@@ -44,6 +46,7 @@ primes.length // => 4: how many elements in the array.
 primes[primes.length-1] // => 7: the last element of the array.
 primes[4] = 9; // Add a new element by assignment.
 primes[4] = 11; // Or alter an existing element by assignment. 
+primes["1"] // "1" converted to 1
 let empty = [];// [] is an empty array with no elements.
 empty.length // => 0
 
@@ -66,6 +69,24 @@ ${exception.stack}
 String.raw`\n`.length // => 2: a backslash character and the letter n
 // A powerful but less commonly used feature of template literals is that, if a function name (or “tag”) comes right before the opening backtick, then the text and the values of the expressions within the template literal are passed to the function. like in that last example raw`\n`
 ```
+#conditional_property_access 
+```js
+
+//ES2020 Conditional Property Access
+expression ?. identifier
+expression ?.[ expression ]
+?.()
+// Consider the expression a?.b. If a is null or undefined, then the expression evaluates to undefined without any attempt to access the property b. If a is some other value, then a?.b evaluates to whatever a.b would evaluate to (and if a does not have a property named b, then the value will again be undefined).
+
+let a = {b: null}
+a?.b //undefined becasue b is null
+a = null
+a?.b //undefined
+log?.(x) //if log is not defined the expression will evalute to undefined
+
+
+```
+
 
 ## Expression
 
@@ -357,6 +378,12 @@ s[0] // => "h"
 toUpperCase() return new strings: they do not modify the string on which they are
 invoked.
 
+## Array
+
+```js
+let c = Array.from(b); //create a copy of array b
+```
+
 ## RegExp
 
 Text between a pair of slashes constitutes a regular expression literal. The second
@@ -391,3 +418,131 @@ indicate the absence of a value.
 - Neither null nor undefined have any properties or methods.
 - you can consider undefined to represent a system-level, `unexpected`, or error-like absence of
 value and null to represent a program-level, normal, or `expected` absence of value
+
+## Symbol
+
+```js
+let s = Symbol("sym_x");
+let s = Symbol.for("shared");
+s.toString() // => "Symbol(shared)"
+Symbol.keyFor(t) // => "shared"
+```
+
+## Global Object
+
+When the JavaScript interpreter starts (or whenever a web browser loads a new page), it creates a new global object and gives it an initial set of properties that define:`Global constants`, `Global functions`, `Constructor functions`,`` Global objects`
+
+```js
+
+```
+
+![[Conversions#ConversionCode]]
+
+## Variable Declaration and Assignment
+
+- Before you can use a variable or constant in a JavaScript program, you must declare it. In ES6 and later, this is done with the `let` and `const` keywords, which we explain next
+- Variables declared with `var` do not have block scope. Instead, they are scoped to the body of the containing function no matter how deeply nested they are inside that function.
+- If you use `var` outside of a function body, it declares a `global variable`. But global variables declared with `var` differ from globals declared with `let` in an important way. Globals declared with var are implemented as `properties of the global object` (§3.7). The global object can be referenced as `globalThis`. **So if you write var x = 2; outside of a function, it is like you wrote globalThis.x = 2;.** Note however, that the analogy is not perfect: the properties created with global var declarations cannot be deleted with the delete operator (§4.13.4). Global variables and constants declared with let and const are not properties of the global object.
+```js
+let i = 0, j = 0, k = 0;
+const H0 = 74;
+
+```
+
+## Destructuring Assignment
+
+```js
+let [x,y] = [1,2]; // Same as let x=1, y=2
+[x,y] = [x+1,y+1]; // Same as x = x + 1, y = y + 1
+[x, y] = [y, x] //swap x and y
+
+let o = { x: 1, y: 2 };
+for(const [name, value] of Object.entries(o))
+{
+	console.log(name, value);
+}
+
+let [x,y] = [1]; // x == 1; y == undefined 
+[x,y] = [1,2,3]; // x == 1; y == 2
+[,x,,y] = [1,2,3,4]; // x == 2; y == 4
+
+let [x, ...y] = [1,2,3,4]; // y == [2,3,4]
+let [a, [b, c]] = [1, [2,2.5], 3]; // a == 1; b == 2; c == 2.5
+
+// You can use any iterable object (Chapter 12) on the righthand side of the assignment;
+
+let [first, ...rest] = "Hello";
+
+let points = [{x: 1, y: 2}, {x: 3, y: 4}];
+let [{x: x1, y: y1}, {x: x2, y: y2}] = points; // destructured into 4 variables (x1, y1, x2, y2).
+
+// Destructuring assignment can also be performed when the righthand side is an object value. In this case, the lefthand side of the assignment looks something like an object literal: a comma-separated list of variable names within curly braces
+
+let transparent = {r: 0.0, g: 0.0, b: 0.0, a: 1.0}; // A RGBA color let 
+{r, g, b} = transparent; // r == 0.0; g == 0.0; b == 0.0
+
+// Same as const sin=Math.sin, cos=Math.cos, tan=Math.tan 
+const {sin, cos, tan} = Math;
+
+```
+
+## Eval
+
+eval() expects one argument. If you pass any value other than a string, it simply returns that value. If you pass a string, it attempts to parse the string as JavaScript code, throwing a SyntaxError if it fails. If it successfully parses the string, then it evaluates the code and returns the value of the last expression or statement in the string or undefined if the last expression or statement had no value. If the evaluated string throws an exception, that exception propogates from the call to eval().
+The key thing about eval() (when invoked like this) is that it uses the variable environment of the code that calls it. That is, it looks up the values of variables and defines new variables and functions in the same way that local code does. If a function defines a local variable x and then calls eval("x"), it will obtain the value of the local variable. If it calls eval("x=1"), it changes the value of the local variable. And if the function calls eval("var y = 3;"), it declares a new local variable y. On the other hand, if the evaluated string uses let or const, the variable or constant declared will be local to the evaluation and will not be defined in the calling environment.
+
+```js
+const geval = eval
+x = "global"
+y = "global"
+
+console.log(globalThis.y) //global
+
+function l(){
+	let x = "local"
+	eval("x += ' changed';")
+	return (x)
+}
+
+  
+
+function g(){
+	let y = "local"
+	geval("y += ' changed';")
+	return (y);
+}
+
+console.log(l(), x) //local changed global
+console.log(g(), y) //local global changed
+
+
+//-----------------------------
+  
+
+function test1(){
+	eval("n = 100")
+	console.log(n) //100
+	console.log(globalThis.n) //100
+}
+test1()
+console.log(n) //100
+console.log(globalThis.n) //100
+
+//-----------------------------
+
+function test2(){
+	eval("var q = 101")
+	console.log(q) //101
+	console.log(globalThis.q) //not defined
+}
+test2()
+console.log(q) //not defined
+console.log(globalThis.q) //not defined
+
+//----------------------------- 
+
+eval("let r = 100")
+console.log(r) //not defined
+
+```
+When eval() is called from strict-mode code, or when the string of code to be evaluated itself begins with a “use strict” directive, then eval() does a local eval with a private variable environment. This means that in strict mode, evaluated code can query and set local variables, but it cannot define new variables or functions in the local scope. Furthermore, strict mode makes eval() even more operator-like by effectively making “eval” into a reserved word

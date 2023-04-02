@@ -4,74 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "c41fe4dca3779f6a",
+        "id": "a8aa38853fd1c578",
         "type": "tabs",
         "children": [
           {
-            "id": "cae3e85657405a50",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Web/Docker/_Docker.canvas",
-                "viewState": {
-                  "x": -1080,
-                  "y": -420,
-                  "zoom": 0
-                }
-              }
-            }
-          },
-          {
-            "id": "e39b6a3ed82b7cd6",
+            "id": "61f511103d82f256",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Docker/docker compose.md",
+                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fa5fd667e698e586",
+            "id": "f77f210e8b89dd13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/AllOfStatistics/Links.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "13c2a8c3ee77ad67",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Redis/_Redis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7f959c145bbf8964",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Operators.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3,
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -138,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Redis/_Redis.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Operators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Redis/_Redis.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Operators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Redis/_Redis.md"
+                "file": "books/JavaScript                                 The Definitive Guide/Operators.md"
               }
             }
           }
@@ -199,57 +160,60 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "13c2a8c3ee77ad67",
+  "active": "f77f210e8b89dd13",
   "lastOpenFiles": [
-    "books/AllOfStatistics/Links.md",
+    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/Operators.md",
+    "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
+    "books/JavaScript                                 The Definitive Guide/Conversions.md",
+    "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
+    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
+    "Web/SSL/_SSL.md",
+    "Web/Docker/notes from youtubeVideo2.md",
+    "Web/SSL",
+    "Web/Docker/_Docker.canvas",
+    "Web/Docker/_Docker_main.md",
+    "Web/Docker/Docker commands.md",
+    "books/JavaScript                                 The Definitive Guide/notes.md",
+    "Web/Services/FTP/_FTP.md",
+    "Web/Services/Adminer.md",
+    "Web/Services/FTP",
+    "Web/React/_React.md",
+    "Web/Services/wordpress.md",
+    "Web/React",
+    "Web/Services/_Services.md",
+    "Web/Services",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 6.06.20 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 6.06.13 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 2.58.24 PM 1.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 2.58.36 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 2.58.24 PM.png",
     "Web/Redis/_Redis.md",
+    "books/AllOfStatistics/Links.md",
     "Web/Redis",
     "books/AllOfStatistics/_ALLOfStatiscrics.md",
     "Web/Docker/docker compose.md",
     "books/AllOfStatistics",
-    "Web/Docker/_Docker.canvas",
-    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
-    "books/JavaScript                                 The Definitive Guide/notes.md",
-    "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
     "books/JavaScript                                 The Definitive Guide/Unicode.md",
-    "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
     "books/hands_on_network_programming/notes from ch03.md",
-    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-09 at 11.49.59 AM.png",
     "Math/Probability/Introduction.md",
     "Math/Probability/_Main.md",
-    "Web/Docker/notes from youtubeVideo2.md",
     "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
     "Topics/Cursus/Inception.md",
     "Topics/Cursus",
     "Topics",
-    "books/introduction_to_algorithms/Algorithm.md",
     "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
     "Obsidian Tutorial/LaTeX.pdf",
-    "Obsidian Tutorial/Extraction.md",
     "Untitled.canvas",
-    "Math/Algebra/Geometric series.md",
     "Math/Algebra/attachments/geometric-series-formulas-1650451222.png",
-    "Math/Algebra/attachments",
-    "Math/KeyWords/Lambert W Function.md",
-    "Math/Algebra",
-    "Math/Probability",
-    "Math/KeyWords",
-    "Math/KeyWords/Taylor series.md",
     "OperatingSystem/Commands/Untitled.canvas",
     "Obsidian Tutorial/attachments/pexels-matthew-montrone-1324803.jpg",
-    "Web/Docker/Docker commands.md",
-    "Web/Docker/docker --restart.md",
     "books/introduction_to_algorithms/Untitled.canvas",
-    "Obsidian Tutorial/Obsiadian Tutorial.md",
-    "Web/Docker/Docker Networking.md",
-    "OperatingSystem/Commands/Debian.md",
     "Web/Docker/attachments/Screen Shot 2023-03-04 at 4.50.12 PM.png",
-    "Obsidian Tutorial/Zettelkasten.md",
     "Obsidian Tutorial/Untitled.canvas",
     "Obsidian Tutorial/ree.png",
     "Web/CGI/CGI.canvas",
-    "books/introduction_to_algorithms/attachments/P!=NP.png",
     "Web/Nginx/_Nginx.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas"
   ]

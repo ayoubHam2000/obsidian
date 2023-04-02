@@ -25,7 +25,7 @@ any type that is not primitive
 - functions
 - classes
 ---
-
+* Immutable Primitive Values and Mutable Object References
 - Technically, it is only JavaScript objects that have methods. But numbers, strings, boolean, and symbol values behave as if they have methods. In JavaScript, `null and undefined` are the only values that methods cannot be invoked on.
 - JavaScript’s object types are `mutable` and its primitive types are `immutable`.
 - JavaScript `represents numbers using the 64-bit floating-point` format defined by the `IEEE 754 standard`,which means it can represent num‐bers as large as ±1.7976931348623157 × 10^308 and as small as ±5 × 10^−324.
