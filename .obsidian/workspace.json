@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61f511103d82f256",
+            "id": "f77f210e8b89dd13",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "f77f210e8b89dd13",
+            "id": "a6aa871206f5ad2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Operators.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Array.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Operators.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Operators.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Operators.md"
+                "file": "books/JavaScript                                 The Definitive Guide/Array.md"
               }
             }
           }
@@ -160,10 +160,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f77f210e8b89dd13",
+  "active": "a6aa871206f5ad2c",
   "lastOpenFiles": [
     "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/Array.md",
+    "books/JavaScript                                 The Definitive Guide/Object.md",
+    "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
+    "Obsidian Tutorial/LaTeX.pdf",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-04 at 10.44.20 PM.png",
+    "books/JavaScript                                 The Definitive Guide/Statement.md",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-04 at 8.19.28 PM.png",
+    "books/JavaScript                                 The Definitive Guide/The different between strict mode and regular mode.md",
     "books/JavaScript                                 The Definitive Guide/Operators.md",
+    "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
+    "books/hands_on_network_programming/_CH07_P196_Building a Simple Web Server.md",
+    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
     "books/JavaScript                                 The Definitive Guide/Conversions.md",
     "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
@@ -195,26 +206,16 @@
     "Web/Docker/docker compose.md",
     "books/AllOfStatistics",
     "books/JavaScript                                 The Definitive Guide/Unicode.md",
-    "books/hands_on_network_programming/notes from ch03.md",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-09 at 11.49.59 AM.png",
-    "Math/Probability/Introduction.md",
-    "Math/Probability/_Main.md",
-    "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
-    "Topics/Cursus/Inception.md",
     "Topics/Cursus",
     "Topics",
-    "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
-    "Obsidian Tutorial/LaTeX.pdf",
     "Untitled.canvas",
     "Math/Algebra/attachments/geometric-series-formulas-1650451222.png",
     "OperatingSystem/Commands/Untitled.canvas",
     "Obsidian Tutorial/attachments/pexels-matthew-montrone-1324803.jpg",
     "books/introduction_to_algorithms/Untitled.canvas",
-    "Web/Docker/attachments/Screen Shot 2023-03-04 at 4.50.12 PM.png",
     "Obsidian Tutorial/Untitled.canvas",
-    "Obsidian Tutorial/ree.png",
     "Web/CGI/CGI.canvas",
-    "Web/Nginx/_Nginx.canvas",
-    "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas"
+    "Web/Nginx/_Nginx.canvas"
   ]
 }

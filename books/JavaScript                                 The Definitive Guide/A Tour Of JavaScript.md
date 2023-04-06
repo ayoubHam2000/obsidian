@@ -5,6 +5,9 @@
  [[JavaScript types]]
  [[Conversions]]
  [[Operators]]
+ [[Statement]]
+ [[Object]]
+ [[Array]]
 
 ## Tour Of JavaScript
 

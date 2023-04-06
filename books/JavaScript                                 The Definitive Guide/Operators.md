@@ -73,3 +73,11 @@ const increment = () => void counter++;
 increment() // => undefined
 counter // => 1
 ```
+
+```js
+//comma operator
+//It evaluates its left operand, evaluates its right operand, and then returns the value of the right operand.
+
+i = (j = 5, u = 6)
+//i = 6
+```

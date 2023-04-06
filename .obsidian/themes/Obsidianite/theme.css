@@ -43,7 +43,13 @@
   --font-family-preview: Avenir, 'Avenir Next';
 } */
 
+.theme-dark .pdf-embed iframe,
+.theme-dark .workspace-leaf-content[data-type="pdf"] iframe {
+    filter: invert(0.85);
+}
+
 .theme-dark {
+  
   --background-primary: #100e17;
   --background-primary-alt: #0d0b12;
   --background-secondary: #191621;
