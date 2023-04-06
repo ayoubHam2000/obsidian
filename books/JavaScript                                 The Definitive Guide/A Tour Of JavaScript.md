@@ -8,6 +8,7 @@
  [[Statement]]
  [[Object]]
  [[Array]]
+ [[Functions]]
 
 ## Tour Of JavaScript
 
