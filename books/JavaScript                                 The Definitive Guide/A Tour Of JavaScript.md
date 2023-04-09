@@ -9,6 +9,7 @@
  [[Object]]
  [[Array]]
  [[Functions]]
+ [[Classes]]
 
 ## Tour Of JavaScript
 

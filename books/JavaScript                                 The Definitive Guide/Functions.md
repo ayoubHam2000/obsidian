@@ -159,3 +159,298 @@ function vectorMultiply({x, y, z=0, ...props}, scalar) {
 vectorMultiply({x: 1, y: 2, w: -1}, 2) // => {x: 2, y: 4, z: 0, w: -1}
 
 ```
+
+## Defining Your Own Function Properties
+
+- Functions are not primitive values in JavaScript, but a specialized kind of object, which means that functions can have properties. When a function needs a “static” variable whose value persists across invocations, it is often convenient to use a property of the function itself
+```js
+uniqueInteger.counter = 0;
+function uniqueInteger() { 
+	return uniqueInteger.counter++;
+}
+```
+
+## Closures
+
+- combination of a function object and a scope (a set of variable bindings) in which the function’s variables are resolved is called a closure in the computer science literature.
+```js
+let scope = "global scope";
+// A global variable
+
+function checkscope() {
+	let scope = "local scope";
+	// A local variable
+	function f() {
+		return scope;
+	} // Return the value in scope here return f;
+}
+let s = checkscope()(); // What does this return?
+```
+
+- Remember the fundamental rule of lexical scoping: JavaScript functions are executed using the scope they were defined in. The nested function f() was defined in a scope where the variable scope was bound to the value “local scope”. That binding is still in effect when f is executed, no matter where it is executed from.
+```js
+let uniqueInteger = (function() {
+	let counter = 0;
+	// Private state of function below
+	return function() { return counter++; };
+}());
+uniqueInteger() // => 0
+uniqueInteger() // => 1
+```
+- It is the return value of the function that is being assigned to uniqueIn teger
+```js
+function counter() {
+	let n = 0;
+	return { 
+		count: function() { return n++; },
+		reset: function() { n = 0; }
+	};
+}
+let c = counter(), d = counter();
+c.count() // => 0
+d.count() // => 0: they count independently
+```
+
+- The counter() function returns a “counter” object. This object has two methods: count() returns the next integer, and reset() resets the internal state. The first thing to understand is that the two methods share access to the private variable n.
+- The second thing to understand is that each invocation of counter() creates a new scope— independent of the scopes used by previous invocations—and a new private variable within that scope. So if you call counter() twice, you get two counter objects with different private variables. Calling count() or reset() on one counter object has no effect on the other.
+```js
+function counter(n) {// Function argument n is the private variable
+	return {
+	// Property getter method returns and increments private counter var.
+		get count() { return n++; },
+	// Property setter doesn't allow the value of n to decrease
+		set count(m) { 
+			if (m > n)
+				n = m;
+			else 
+				throw Error("count can only be set to a larger value");
+			}
+	}
+}
+let count = counter(1000)
+c.count //=> 1000
+c.count //=> 1001
+
+```
+
+- Another thing to remember when writing closures is that this is a JavaScript keyword, not a variable. As discussed earlier, arrow functions inherit the this value of the function that contains them, but functions defined with the function keyword do not. So if you’re writing a closure that needs to use the this value of its containing function, you should use an arrow function, or call bind(), on the closure before returning it, or assign the outer this value to a variable that your closure will inherit:
+
+```js
+function constfuncs() {
+	let funcs = [];
+	for(var i = 0; i < 10; i++) {
+		funcs[i] = () => i;
+	} 
+	return funcs;
+}
+let funcs = constfuncs(); funcs[5]()
+// => 10; Why doesn't this return 5?
+//P208
+```
+
+## Function Properties, Methods, and Constructor
+
+#### The length Property
+
+- The read-only length property of a function specifies the arity of the function—the number of parameters it declares in its parameter list, which is usually the number of arguments that the function expects. If a function has a rest parameter, that parameter is not counted for the purposes of this length property.
+
+#### The name property
+
+- The read-only name property of a function specifies the name that was used when the function was defined, if it was defined with a name, or the name of the variable or property that an unnamed function expression was assigned to when it was first created. This property is primarily useful when writing debugging or error messages.
+
+#### The prototype Property
+
+- All functions, except arrow functions, have a prototype property that refers to an
+object known as the prototype object.
+
+#### The call() and apply() Methods
+
+- call() and apply() allow you to indirectly invoke (§8.2.4) a function as if it were a method of some other object. The first argument to both call() and apply() is the object on which the function is to be invoked; this argument is the invocation context and becomes the value of the this keyword within the body of the function.
+```js
+f.call(o, arg1, arg2)
+f.apply(o, [arg1, arg2])
+```
+- Remember that arrow functions inherit the this value of the context where they are defined. This cannot be overridden with the call() and apply() methods. If you call either of those methods on an arrow function, the first argument is effectively ignored.
+
+#### The bind() Method
+
+- The primary purpose of bind() is to bind a function to an object. When you invoke the bind() method on a function f and pass an object o, the method returns a new function. Invoking the new function (as a function) invokes the original function f as a method of o
+```js
+function f(y) { return this.x + y; } // This function needs to be bound
+let o = { x: 1 }; // An object we'll bind to
+let g = f.bind(o); // Calling g(x) invokes f() on o
+g(2) // => 3 
+let p = { x: 10, g };
+p.g(2) // => 3: g is still bound to o, not p.
+```
+- Arrow functions inherit their this value from the environment in which they are defined, and that value cannot be overridden with bind()
+- any arguments you pass to bind() after the first are bound along with the this value. This partial application feature of bind() does work with arrow functions.
+```js
+let sum = (x,y) => x + y;
+// Return the sum of 2 args
+let succ = sum.bind(null, 1); // Bind the first argument to 1
+succ(2) // => 3: x is bound to 1, and we pass 2 for the y argument
+
+function f(y,z) {return this.x + y + z; }
+let g = f.bind({x: 1}, 2); // Bind this and y
+g(3) // => 6: this.x is bound to 1, y is bound to 2 and z is 3
+```
+
+#### toString
+
+In practice, most (but not all) implementations of this toString() method return the complete source code for the function. Built-in functions typically return a string that includes something like “\[native code\]” as the function body
+
+## Function Contructor
+
+```js
+const f = new Function("x", "y", "return x*y;");
+```
+
+- The Function() constructor expects any number of string arguments. The last argument is the text of the function body
+- The Function() constructor allows JavaScript functions to be dynamically created and compiled at runtime
+- A last, very important point about the Function() constructor is that the functions it creates do not use lexical scoping; instead, they are always compiled as if they were top-level functions, as the following code demonstrates:
+- The Function() constructor is best thought of as a globally scoped version of eval() (see §4.12.2) that defines new variables and functions in its own private scope. You will probably never need to use this constructor in your code.
+
+```js
+let scope = "global";
+function constructFunction() {
+	let scope = "local";
+	return new Function("return scope"); // Doesn't capture local scope!
+}
+// This line returns "global" because the function returned by the
+// Function() constructor does not use the local scope.
+constructFunction()() // => "global"
+```
+
+## Functional Programming
+
+- JavaScript is not a functional programming language like Lisp or Haskell, but the fact that JavaScript can manipulate functions as objects means that we can use functional programming techniques in JavaScript
+
+#### Processing Arrays with Functions
+
+```js
+// First, define two simple functions
+const sum = (x,y) => x+y;
+const square = x => x*x;
+// Then use those functions with Array methods to compute mean and stddev let 
+data = [1,1,3,5,5];
+let mean = data.reduce(sum)/data.length; // mean == 3
+let deviations = data.map(x => x-mean);
+let stddev = Math.sqrt(deviations.map(square).reduce(sum)/(data.length-1)); stddev // => 2
+```
+
+- This new version of the code looks quite different than the first one, but it is still invoking methods on objects, so it has some object-oriented conventions remaining. Let’s write functional versions of the map() and reduce() methods:
+```js
+const map = function(a, ...args) { return a.map(...args); };
+const reduce = function(a, ...args) { return a.reduce(...args); };
+
+// With these map() and reduce() functions defined, our code to compute the mean and standard deviation now looks like this:
+
+const sum = (x,y) => x+y;
+const square = x => x*x;
+let data = [1,1,3,5,5];
+let mean = reduce(data, sum)/data.length;
+let deviations = map(data, x => x-mean);
+let stddev = Math.sqrt(reduce(map(deviations, square), sum)/(data.length-1)); stddev // => 2
+
+```
+
+#### Higher-Order Functions
+
+- A higher-order function is a function that operates on functions, taking one or more functions as arguments and returning a new function. Here is an example:
+```js
+function not(f) {
+	return function(...args) {
+		// Return a new function
+		let result = f.apply(this, args); // that calls f
+		return !result; // and negates its result.
+	};
+}
+
+const even = x => x % 2 === 0;
+const odd = not(even);// A new function that does the opposite 
+[1,1,3,5,5].every(odd) //true
+```
+
+```js
+function mapper(f) {
+	return a => map(a, f);
+}
+const increment = x => x+1;
+const incrementAll = mapper(increment);
+incrementAll([1,2,3]) // => [2,3,4]
+
+
+
+function compose(f, g) {
+	return function(...args) {
+// We use call for f because we're passing a single value and // apply for g because we're passing an array of values.
+	return f.call(this, g.apply(this, args));
+	}; 
+}
+const sum = (x,y) => x+y;
+const square = x => x*x;
+compose(square, sum)(2,3) // => 25; the square of the sum
+```
+
+#### Partial Application of Functions
+
+- The bind() method of a function f (see §8.7.5) returns a new function that invokes f in a specified context and with a specified set of arguments. We say that it binds the function to an object and partially applies the arguments. The bind() method partially applies arguments on the left—that is, the arguments you pass to bind() are placed at the start of the argument list that is passed to the original function. But it is also possible to partially apply arguments on the right:
+
+```js
+// The arguments to this function are passed on the left
+function partialLeft(f, ...outerArgs) {
+	return function(...innerArgs) { // Return this function
+		let args = [...outerArgs, ...innerArgs]; // Build the argument list
+		return f.apply(this, args);// Then invoke f with it 
+	};
+}
+
+// The arguments to this function are passed on the right
+function partialRight(f, ...outerArgs) {
+	return function(...innerArgs) { // Return this function
+		let args = [...innerArgs, ...outerArgs];// Build the argument list
+		return f.apply(this, args); // Then invoke f with it
+	};
+}
+
+const f = function(x,y,z) { return x * (y - z); };
+partialLeft(f, 2)(3,4) // => -2: Bind first argument: 2 * (3 - 4)
+partialRight(f, 2)(3,4) // => 6: Bind last argument: 3 * (4 - 2)
+
+
+
+const increment = partialLeft(sum, 1);
+const cuberoot = partialRight(Math.pow, 1/3);
+cuberoot(increment(26)) // => 3
+
+
+
+const not = partialLeft(compose, x => !x);
+const even = x => x % 2 === 0;
+const odd = not(even);
+const isNumber = not(isNaN);
+odd(3) && isNumber(2) // => true
+
+```
+
+#### Memoization
+
+- In §8.4.1, we defined a factorial function that cached its previously computed results. In functional programming, this kind of caching is called memoization. The code that follows shows a higher-order function, memoize(), that accepts a function as its argument and returns a memoized version of the function:
+
+```js
+function memoize(f) {
+	const cache = new Map(); // Value cache stored in the closure.
+	return function(...args) {
+// Create a string version of the arguments to use as a cache key.
+		let key = args.length + args.join("+");
+		if (cache.has(key)) {
+			return cache.get(key);
+		} else { 
+			let result = f.apply(this, args);
+			cache.set(key, result);
+			return result;
+		}
+	}; 
+}
+```

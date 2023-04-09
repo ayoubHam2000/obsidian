@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "b7b7094b247e6b0f",
+            "id": "25ad01bd51ebab47",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Functions.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Functions.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Functions.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Functions.md"
+                "file": "books/JavaScript                                 The Definitive Guide/Classes.md"
               }
             }
           }
@@ -160,9 +160,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b7b7094b247e6b0f",
+  "active": "25ad01bd51ebab47",
   "lastOpenFiles": [
     "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/Classes.md",
     "books/JavaScript                                 The Definitive Guide/Functions.md",
     "books/JavaScript                                 The Definitive Guide/Array.md",
     "books/JavaScript                                 The Definitive Guide/Object.md",
@@ -204,7 +205,6 @@
     "books/AllOfStatistics/Links.md",
     "Web/Redis",
     "books/AllOfStatistics/_ALLOfStatiscrics.md",
-    "Web/Docker/docker compose.md",
     "books/AllOfStatistics",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-09 at 11.49.59 AM.png",
     "Topics/Cursus",
