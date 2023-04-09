@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+                "file": "Math/Algebra/Geometric series.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,7 +32,6 @@
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Classes.md",
+                "file": "Math/Algebra/Geometric series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Classes.md",
+                "file": "Math/Algebra/Geometric series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Classes.md"
+                "file": "Math/Algebra/Geometric series.md"
               }
             }
           }
@@ -160,13 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "25ad01bd51ebab47",
+  "active": "f77f210e8b89dd13",
   "lastOpenFiles": [
+    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
+    "books/JavaScript                                 The Definitive Guide/Object.md",
     "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
     "books/JavaScript                                 The Definitive Guide/Classes.md",
     "books/JavaScript                                 The Definitive Guide/Functions.md",
     "books/JavaScript                                 The Definitive Guide/Array.md",
-    "books/JavaScript                                 The Definitive Guide/Object.md",
     "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
     "Obsidian Tutorial/LaTeX.pdf",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-04 at 10.44.20 PM.png",
@@ -180,7 +180,6 @@
     "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
     "books/JavaScript                                 The Definitive Guide/Conversions.md",
     "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
-    "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "Web/SSL/_SSL.md",
     "Web/Docker/notes from youtubeVideo2.md",
     "Web/SSL",
@@ -204,7 +203,6 @@
     "Web/Redis/_Redis.md",
     "books/AllOfStatistics/Links.md",
     "Web/Redis",
-    "books/AllOfStatistics/_ALLOfStatiscrics.md",
     "books/AllOfStatistics",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-09 at 11.49.59 AM.png",
     "Topics/Cursus",
