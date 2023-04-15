@@ -10,6 +10,22 @@
  [[Array]]
  [[Functions]]
  [[Classes]]
+ [[Modules]]
+ [[The JavaScript Standard Library]]
+	 [[The JavaScript Standard Library#Set And Map]]
+	 [[The JavaScript Standard Library#Typed Arrays and Binary Data]]
+	 [[The JavaScript Standard Library#Pattern Matching with Regular Expressions]]
+	 [[The JavaScript Standard Library#String Methods for Pattern Matching]]
+	 [[The JavaScript Standard Library#Dates and Times]]
+	 [[The JavaScript Standard Library#Error Classes]]
+	 [[The JavaScript Standard Library#JSON Serialization and Parsing]]
+	 [[The JavaScript Standard Library#The Internationalization API]]
+	 [[The JavaScript Standard Library#The Console API]]
+	 [[The JavaScript Standard Library#URL APIs]]
+	 [[The JavaScript Standard Library#Timers]]
+[[Iterators and Generators]]
+[[Asynchronous JavaScript]]
+
 
 ## Tour Of JavaScript
 

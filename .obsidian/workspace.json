@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a8aa38853fd1c578",
+        "id": "f6caccae91e82ff1",
         "type": "tabs",
         "children": [
           {
-            "id": "f77f210e8b89dd13",
+            "id": "1e61cf4bf6c782ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Math/Algebra/Geometric series.md",
+                "file": "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "25ad01bd51ebab47",
+            "id": "c7df8859c9efbb4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Classes.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Math/Algebra/Geometric series.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Math/Algebra/Geometric series.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Math/Algebra/Geometric series.md"
+                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md"
               }
             }
           }
@@ -159,12 +160,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f77f210e8b89dd13",
+  "active": "c7df8859c9efbb4f",
   "lastOpenFiles": [
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-15 at 3.48.04 AM.png",
+    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
+    "books/JavaScript                                 The Definitive Guide/Iterators and Generators.md",
+    "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-13 at 12.37.12 AM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 9.26.39 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.42.01 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.23.58 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.08.27 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.08.09 PM.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 5.11.16 PM 1.png",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 5.11.16 PM.png",
+    "books/JavaScript                                 The Definitive Guide/Modules.md",
+    "books/JavaScript                                 The Definitive Guide/Classes.md",
+    "Web/Docker/notes from youtubeVideo2.md",
+    "Web/Docker/_Docker.canvas",
+    "Web/Docker/what is the Docker Volume ?.md",
+    "Web/Docker/notes from youtubeVideo1.md",
+    "Web/Docker/general notes.md",
+    "Web/Docker/Docker commands.md",
+    "Web/Docker/docker compose.md",
+    "Web/Docker/Docker Networking.md",
+    "Web/Docker/docker --restart.md",
+    "Web/Docker/_Notes.md",
+    "Web/Docker/what is a container ?.md",
+    "Web/Docker/_Docker_main.md",
+    "Web/Docker/_Docker resources.md",
+    "Math/Algebra/Geometric series.md",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/JavaScript                                 The Definitive Guide/Object.md",
-    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
-    "books/JavaScript                                 The Definitive Guide/Classes.md",
     "books/JavaScript                                 The Definitive Guide/Functions.md",
     "books/JavaScript                                 The Definitive Guide/Array.md",
     "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
@@ -174,43 +202,17 @@
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-04 at 8.19.28 PM.png",
     "books/JavaScript                                 The Definitive Guide/The different between strict mode and regular mode.md",
     "books/JavaScript                                 The Definitive Guide/Operators.md",
-    "books/hands_on_network_programming/_CH06_P166_Building a Simple Web Client.md",
-    "books/hands_on_network_programming/_CH07_P196_Building a Simple Web Server.md",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "books/JavaScript                                 The Definitive Guide/JavaScript types.md",
-    "books/JavaScript                                 The Definitive Guide/Conversions.md",
-    "books/JavaScript                                 The Definitive Guide/Optional Semicolons.md",
-    "Web/SSL/_SSL.md",
-    "Web/Docker/notes from youtubeVideo2.md",
     "Web/SSL",
-    "Web/Docker/_Docker.canvas",
-    "Web/Docker/_Docker_main.md",
-    "Web/Docker/Docker commands.md",
-    "books/JavaScript                                 The Definitive Guide/notes.md",
-    "Web/Services/FTP/_FTP.md",
-    "Web/Services/Adminer.md",
     "Web/Services/FTP",
-    "Web/React/_React.md",
-    "Web/Services/wordpress.md",
     "Web/React",
-    "Web/Services/_Services.md",
     "Web/Services",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 6.06.20 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 6.06.13 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 2.58.24 PM 1.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 2.58.36 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-18 at 2.58.24 PM.png",
-    "Web/Redis/_Redis.md",
-    "books/AllOfStatistics/Links.md",
     "Web/Redis",
     "books/AllOfStatistics",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-03-09 at 11.49.59 AM.png",
     "Topics/Cursus",
     "Topics",
     "Untitled.canvas",
-    "Math/Algebra/attachments/geometric-series-formulas-1650451222.png",
     "OperatingSystem/Commands/Untitled.canvas",
-    "Obsidian Tutorial/attachments/pexels-matthew-montrone-1324803.jpg",
     "books/introduction_to_algorithms/Untitled.canvas",
     "Obsidian Tutorial/Untitled.canvas",
     "Web/CGI/CGI.canvas",
