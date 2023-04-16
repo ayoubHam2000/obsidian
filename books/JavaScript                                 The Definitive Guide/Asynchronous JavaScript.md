@@ -107,3 +107,237 @@ If the hypothetical failures are truly random, then adding this one line of code
 ```
 
 - By adding the curly braces, we no longer get the automatic return. This function now returns undefined instead of returning a Promise, which means that the next stage in this Promise chain will be invoked with undefined as its input rather than the result of the retried query. It is a subtle error that may not be easy to debug.
+
+
+## Promises in Parallel
+
+- The function `Promise.all()` can do this. Promise.all() takes an array of Promise objects as its input and returns a Promise. The returned Promise will be `rejected` if any of the input Promises are `rejected`. Otherwise, it will be `fulfilled` with an array of the fulfillment values of each of the input `Promises`
+
+```js
+// We start with an array of URLs
+const urls = [ /* zero or more URLs here */ ];
+// And convert it to an array of Promise objects
+promises = urls.map(url => fetch(url).then(r => r.text()));
+// Now get a Promise to run all those Promises in parallel
+Promise.all(promises)
+	.then(bodies => { /* do something with the array of strings */})
+	.catch(e => console.error(e));
+```
+
+- In ES2020, Promise.allSettled() takes an array of input Promises and returns a Promise, just like Promise.all() does. But Promise.allSettled() never rejects the returned Promise, and it does not fulfill that Promise until all of the input Promises have settled. The Promise resolves to an array of objects, with one object for each input Promise. Each of these returned objects has a status property set to “fulfilled” or “rejected.” If the status is “fulfilled”, then the object will also have a value property that gives the fulfillment value. And if the status is “rejected”, then the object will also have a reason property that gives the error or rejection value of the corresponding Promise
+```js
+Promise.allSettled([Promise.resolve(1), Promise.reject(2), 3]).then(
+	results => {
+		results[0] // => { status: "fulfilled", value: 1 }
+		results[1] // => { status: "rejected", reason: 2 }
+		results[2] // => { status: "fulfilled", value: 3 }
+	}
+);
+```
+
+- Occasionally, you may want to run a number of Promises at once but may only care about the value of the first one to fulfill. In that case, you can use `Promise.race()` instead of Promise.all(). `It returns a Promise that is fulfilled or rejected when the first of the Promises in the input array is fulfilled or rejected.` (Or, if there are any non-Promise values in the input array, it simply returns the first of those.)
+```js
+Promise.race([promise1, promise2]).then(result => {
+  console.log(result); // 'promise2 resolved'
+}).catch(error => {
+  console.log(error);
+});
+```
+
+## Making Promises
+
+#### Promises based on other Promises
+
+```js
+function getJSON(url) {
+	return fetch(url).then(response => response.json());
+}
+
+function getHighScore() {
+	return getJSON("/api/user/profile").then(profile => profile.highScore);
+}
+```
+
+#### Promises from scratch
+
+```js
+function wait(duration) {
+	// Create and return a new Promise
+	return new Promise((resolve, reject) => {
+		// These control the Promise 
+		// If the argument is invalid, reject the Promise
+		if (duration < 0) {
+			reject(new Error("Time travel not yet implemented"));
+		} // Otherwise, wait asynchronously and then resolve the Promise.
+		// setTimeout will invoke resolve() with no arguments, which means
+		// that the Promise will fulfill with the undefined value. 
+		setTimeout(resolve, duration);
+	});
+}
+```
+
+```js
+const http = require("http");
+
+function getJSON(url) {
+	// Create and return a new Promise
+	return new Promise((resolve, reject) => { // Start an HTTP GET request for the specified URL 
+
+
+		request = http.get(url, response => { // called when response starts 
+			// Reject the Promise if the HTTP status is wrong
+			if (response.statusCode !== 200) {
+				reject(new Error(`HTTP status ${response.statusCode}`));
+				response.resume(); // so we don't leak memory
+			}
+			// And reject if the response headers are wrong
+			else if (response.headers["content-type"] !== "application/json") { 
+				reject(new Error("Invalid content-type"));
+				response.resume(); // don't leak memory
+			} else {
+				// Otherwise, register events to read the body of the response
+				let body = "";
+				response.setEncoding("utf-8");
+				response.on("data", chunk => { body += chunk; });
+				response.on("end", () => {
+					// When the response body is complete,try to parse it
+					try {
+						let parsed = JSON.parse(body);
+						// If it parsed successfully, fulfill the Promise
+						resolve(parsed);
+					} catch(e) {
+						// If parsing failed, reject the Promise
+						reject(e);
+					}	
+				});
+			}
+		});
+
+
+		// We also reject the Promise if the request fails before we // even get a response (such as when the network is down)
+		request.on("error", error => { 
+			reject(error);
+		});
+	});
+}
+```
+
+
+## Promises in Sequence ??
+
+
+## async and await
+
+- The `await` keyword takes a Promise and turns it back into a return value or a thrown exception. Given a Promise object p, the expression await p waits until p settles. If p fulfills, then the value of await p is the fulfillment value of p. On the other hand, if p is rejected, then the await p expression throws the rejection value of p. We don’t usually use await with a variable that holds a Promise; instead, we use it before the invocation of a function that returns a Promise
+
+```js
+let response = await fetch("/api/user/profile");
+let profile = await response.json();
+```
+
+- It is critical to understand right away that the await keyword does not cause your program to block and literally do nothing until the specified Promise settles. The code remains asynchronous, and the await simply disguises this fact. This means that any code that uses await is itself asynchronous.
+
+---
+
+- Because any code that uses await is asynchronous, there is one critical rule: `you can only use the await keyword within functions that have been declared with the async keyword.` Here’s a version of the getHighScore() function from earlier in the chapter, rewritten to use async and await.
+```js
+async function getHighScore() {
+	let response = await fetch("/api/user/profile");
+	let profile = await response.json(); return profile.highScore;
+}
+```
+
+- Declaring a function `async` means that the return value of the function will be a Promise even if no Promise-related code appears in the body of the function
+- You can use the `async` keyword with any kind of function. It works with the function keyword as a statement or as an expression. It works with arrow functions and with the method shortcut form in classes and object literals. (See Chapter 8 for more about the various ways to write functions.)
+
+#### Awaiting Multiple Promises
+
+```js
+let value1 = await getJSON(url1);
+let value2 = await getJSON(url2);
+
+
+// => 
+let [value1, value2] = await Promise.all([getJSON(url1), getJSON(url2)]);
+```
+
+
+## The for/await Loop
+
+```js
+const fs = require("fs");
+async function parseFile(filename) {
+	let stream = fs.createReadStream(filename, { encoding: "utf-8"});
+	for await (let chunk of stream) {
+		parseChunk(chunk); // Assume parseChunk() is defined elsewhere
+	} 
+}
+
+
+for(const promise of promises) {
+	response = await promise;
+	handle(response);
+}
+
+// <=>
+
+for await (const response of promises) {
+	handle(response);
+}
+
+```
+
+
+## Asynchronous Iterators And Asynchronous Generators
+
+- Let’s review some terminology from Chapter 12. An iterable object is one that can be used with a for/of loop. It defines a method with the symbolic name Symbol.itera tor. This method returns an iterator object. The iterator object has a next() method, which can be called repeatedly to obtain the values of the iterable object. The next() method of the iterator object returns iteration result objects. The iteration result object has a value property and/or a done property.
+- Asynchronous iterators are quite similar to regular iterators, but there are two important differences. First, an asynchronously iterable object implements a method with the symbolic name `Symbol.asyncIterator` instead of `Symbol.iterator`. (As we saw earlier, `for/await` is compatible with regular iterable objects but it prefers asynchronously iterable objects, and tries the Symbol.asyncIterator method before it tries the Symbol.iterator method.) Second, the next() method of an asynchronous iterator returns a Promise that resolves to an iterator result object instead of returning an iterator result object directly.
+
+```js
+async function* clock(interval, max=Infinity) {
+	for(let count = 1; count <= max; count++) { // regular for loop await 
+		elapsedTime(interval); // wait for time to pass
+		yield count; 
+	}
+}
+
+// A test function that uses the async generator with for/await 
+async function test() {
+	// Async so we can use for/await
+	for await (let tick of clock(300, 100)) { // Loop 100 times every 300ms 
+		console.log(tick);
+	}
+}
+
+
+//clock using iterator
+
+function clock(interval, max=Infinity) {
+	// A Promise-ified version of setTimeout that we can use await with.
+	// Note that this takes an absolute time instead of an interval.
+	function until(time) {
+		return new Promise(resolve => setTimeout(resolve, time - Date.now()));
+	}
+	// Return an asynchronously iterable object
+	return {
+		startTime: Date.now(), // Remember when we started
+		
+		count: 1, // Remember which iteration we're on
+		
+		async next() { // The next() method makes this an iterator 
+			if (this.count > max) { // Are we done?
+				return { done: true }; // Iteration result indicating done
+			}
+			// Figure out when the next iteration should begin,
+			let targetTime = this.startTime + this.count * interval; 
+			// wait until that time, 
+			await until(targetTime);
+			// and return the count value in an iteration result object.
+			return { value: this.count++ };
+		},
+		// This method means that this iterator object is also an iterable. 
+		[Symbol.asyncIterator]() { return this; }
+	};
+}
+
+```
