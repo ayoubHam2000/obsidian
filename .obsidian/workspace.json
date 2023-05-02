@@ -20,20 +20,37 @@
             }
           },
           {
-            "id": "c7df8859c9efbb4f",
+            "id": "dfaedb06a86647a0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
+                "file": "books/JavaScript                                 The Definitive Guide/Modules.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1,
-        "stacked": true
+        "currentTab": 1
+      },
+      {
+        "id": "ad6667aef13264d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "489b9b9965158b72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Js/4. Node.js Fundamentals Module System.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
+                "file": "Web/Js/4. Node.js Fundamentals Module System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
+                "file": "Web/Js/4. Node.js Fundamentals Module System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md"
+                "file": "Web/Js/4. Node.js Fundamentals Module System.md"
               }
             }
           }
@@ -160,13 +177,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c7df8859c9efbb4f",
+  "active": "489b9b9965158b72",
   "lastOpenFiles": [
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-15 at 3.48.04 AM.png",
+    "books/JavaScript                                 The Definitive Guide/Modules.md",
     "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "Web/Js/4. Node.js Fundamentals Module System.md",
+    "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
+    "Web/Js/JS.md",
+    "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
+    "Web/Js",
+    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-15 at 3.48.04 AM.png",
     "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
     "books/JavaScript                                 The Definitive Guide/Iterators and Generators.md",
-    "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-13 at 12.37.12 AM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 9.26.39 PM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.42.01 PM.png",
@@ -175,7 +197,6 @@
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.08.09 PM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 5.11.16 PM 1.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 5.11.16 PM.png",
-    "books/JavaScript                                 The Definitive Guide/Modules.md",
     "books/JavaScript                                 The Definitive Guide/Classes.md",
     "Web/Docker/notes from youtubeVideo2.md",
     "Web/Docker/_Docker.canvas",
@@ -199,9 +220,6 @@
     "Obsidian Tutorial/LaTeX.pdf",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-04 at 10.44.20 PM.png",
     "books/JavaScript                                 The Definitive Guide/Statement.md",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-04 at 8.19.28 PM.png",
-    "books/JavaScript                                 The Definitive Guide/The different between strict mode and regular mode.md",
-    "books/JavaScript                                 The Definitive Guide/Operators.md",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "Web/SSL",
     "Web/Services/FTP",
@@ -210,7 +228,6 @@
     "Web/Redis",
     "books/AllOfStatistics",
     "Topics/Cursus",
-    "Topics",
     "Untitled.canvas",
     "OperatingSystem/Commands/Untitled.canvas",
     "books/introduction_to_algorithms/Untitled.canvas",
