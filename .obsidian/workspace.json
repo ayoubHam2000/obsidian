@@ -13,50 +13,37 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dfaedb06a86647a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
+                "file": "Web/Js/4. Node.js Fundamentals Module System.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "ad6667aef13264d6",
+        "id": "62cb73e39d85e9c0",
         "type": "tabs",
         "children": [
           {
-            "id": "29da2d50539864d5",
+            "id": "f692b74e776575fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Js/6. Node.js File IO - Planets Project.md",
+                "file": "Web/Js/7. Web Servers with Node.js.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd9770cedbd09a91",
+            "id": "a37f2794d4223a61",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Js/7. Web Servers with Node.js.md",
+                "file": "Web/Js/8. First Express.js API.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,6 +95,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "001065f839180991",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -129,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Js/7. Web Servers with Node.js.md",
+                "file": "Web/Js/8. First Express.js API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Js/7. Web Servers with Node.js.md",
+                "file": "Web/Js/8. First Express.js API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Js/7. Web Servers with Node.js.md"
+                "file": "Web/Js/8. First Express.js API.md"
               }
             }
           }
@@ -190,23 +185,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bd9770cedbd09a91",
+  "active": "a37f2794d4223a61",
   "lastOpenFiles": [
-    "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
     "Web/Js/7. Web Servers with Node.js.md",
+    "Web/Js/4. Node.js Fundamentals Module System.md",
+    "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
     "Web/Js/5. Node.js Fundamentals Package Management.md",
-    "Web/Js/1-3.introduction.md",
-    "Web/Js/6. Node.js File IO - Planets Project.md",
+    "Web/Js/8. First Express.js API.md",
+    "Web/Js/attachments/2560px-MVC-Process.svg.png",
+    "Web/Js/attachments/8.1 What_Is_Express_Middleware.png",
+    "Web/Js/JS.md",
+    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/hands_on_network_programming/notes from ch04.md",
+    "books/hands_on_network_programming/_CH04_P104.md",
     "Web/Js/attachments/Screenshot from 2023-05-01 15-55-36.png",
     "Web/Js/attachments",
-    "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
-    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
-    "Web/Js/JS.md",
+    "Web/Js/6. Node.js File IO - Planets Project.md",
+    "Web/Js/1-3.introduction.md",
     "books/JavaScript                                 The Definitive Guide/Modules.md",
-    "Web/Js/4. Node.js Fundamentals Module System.md",
     "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
     "Web/Js",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-15 at 3.48.04 AM.png",
+    "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
     "books/JavaScript                                 The Definitive Guide/Iterators and Generators.md",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-13 at 12.37.12 AM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 9.26.39 PM.png",
@@ -214,8 +214,6 @@
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.23.58 PM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.08.27 PM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.08.09 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 5.11.16 PM 1.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 5.11.16 PM.png",
     "books/JavaScript                                 The Definitive Guide/Classes.md",
     "Web/Docker/notes from youtubeVideo2.md",
     "Web/Docker/_Docker.canvas",
@@ -227,10 +225,6 @@
     "Web/Docker/Docker Networking.md",
     "Web/Docker/docker --restart.md",
     "Web/Docker/_Notes.md",
-    "Web/Docker/what is a container ?.md",
-    "Web/Docker/_Docker_main.md",
-    "Web/Docker/_Docker resources.md",
-    "Math/Algebra/Geometric series.md",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
     "Obsidian Tutorial/LaTeX.pdf",
