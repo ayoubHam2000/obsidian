@@ -6,3 +6,7 @@
 [[7. Web Servers with Node.js]]
 [[8. First Express.js API]]
 [[9. NASA Project]]
+[[10. Testing APIs]]
+[[12. Databases]]
+
+

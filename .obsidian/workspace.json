@@ -8,62 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a37f2794d4223a61",
+            "id": "61c0d2bb4218c46c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79922b39a88734b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Js/8. First Express.js API.md",
+                "file": "Web/Js/NestJs Course for Beginners - Create a REST API.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "62cb73e39d85e9c0",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f692b74e776575fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Web/Js/7. Web Servers with Node.js.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23fd2efcea5548e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:lat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
+                "file": "Web/Js/NestJs Course for Beginners - Create a REST API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
+                "file": "Web/Js/NestJs Course for Beginners - Create a REST API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md"
+                "file": "Web/Js/NestJs Course for Beginners - Create a REST API.md"
               }
             }
           }
@@ -198,61 +154,62 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "23fd2efcea5548e3",
+  "active": "61c0d2bb4218c46c",
   "lastOpenFiles": [
-    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
-    "Web/Js/9. NASA Project.md",
-    "Web/Js/8. First Express.js API.md",
+    "Web/Js/!JS.md",
+    "Web/Js/NestJs Course for Beginners - Create a REST API.md",
     "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
+    "Web/PostgreSQL/PostgreSQL Tutorial Full Course 2022.md",
+    "Web/PostgreSQL/postgreDataBase.md",
+    "Web/PostgreSQL/attachments/Screen Shot 2023-05-08 at 8.55.00 AM.png",
+    "Web/PostgreSQL/attachments/Screen Shot 2023-05-08 at 8.19.46 AM.png",
+    "Web/PostgreSQL/attachments/postgresql/tools/run_postgresql.sh",
+    "Web/PostgreSQL/attachments/postgresql/config/postgresql.conf",
+    "Web/PostgreSQL/attachments/postgresql/config/pg_hba.conf",
+    "Web/PostgreSQL/attachments/postgresql/tools",
+    "Web/PostgreSQL/attachments/postgresql/docker-compose.yml",
+    "Web/PostgreSQL/attachments/postgresql/config",
+    "Web/PostgreSQL/attachments/postgresql/Dockerfile",
+    "Web/PostgreSQL/attachments/postgresql",
+    "Web/PostgreSQL/attachments/postgresql.tar.gz",
+    "Web/PostgreSQL/attachments",
+    "Web/PostgreSQL/!PostgreSQL.md",
+    "Web/!Web.md",
+    "Web/SSL/!SSL.md",
+    "Web/Services/!Services.md",
+    "Web/Redis/!Redis.md",
+    "Web/React/!React.md",
+    "Web/Nginx/Nginx.md",
+    "Web/Nginx/!Nginx.canvas",
+    "Web/Docker/!Docker.canvas",
+    "Web/CGI/!CGI.md",
+    "Web/Js/8. First Express.js API.md",
+    "Web/Js/9. NASA Project.md",
+    "Web/Js/10. Testing APIs.md",
+    "Web/Js/12. Databases.md",
+    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
+    "books/JavaScript                                 The Definitive Guide/Operators.md",
     "Web/Js/7. Web Servers with Node.js.md",
+    "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
     "Web/Js/attachments/Screen Shot 2023-05-05 at 11.09.06 AM.png",
     "Web/Js/5. Node.js Fundamentals Package Management.md",
-    "Web/Js/JS.md",
     "Web/Js/4. Node.js Fundamentals Module System.md",
     "Web/Js/attachments/2560px-MVC-Process.svg.png",
     "Web/Js/attachments/8.1 What_Is_Express_Middleware.png",
     "books/hands_on_network_programming/notes from ch04.md",
     "books/hands_on_network_programming/_CH04_P104.md",
     "Web/Js/attachments/Screenshot from 2023-05-01 15-55-36.png",
-    "Web/Js/attachments",
     "Web/Js/6. Node.js File IO - Planets Project.md",
-    "Web/Js/1-3.introduction.md",
-    "books/JavaScript                                 The Definitive Guide/Modules.md",
-    "books/JavaScript                                 The Definitive Guide/Asynchronous JavaScript.md",
-    "Web/Js",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-15 at 3.48.04 AM.png",
-    "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
-    "books/JavaScript                                 The Definitive Guide/Iterators and Generators.md",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-13 at 12.37.12 AM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 9.26.39 PM.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.42.01 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.23.58 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.08.27 PM.png",
-    "books/JavaScript                                 The Definitive Guide/Classes.md",
-    "Web/Docker/notes from youtubeVideo2.md",
-    "Web/Docker/_Docker.canvas",
-    "Web/Docker/what is the Docker Volume ?.md",
-    "Web/Docker/notes from youtubeVideo1.md",
-    "Web/Docker/general notes.md",
-    "Web/Docker/Docker commands.md",
-    "Web/Docker/docker compose.md",
-    "Web/Docker/Docker Networking.md",
-    "Web/Docker/docker --restart.md",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
-    "Obsidian Tutorial/LaTeX-cheat-sheet.pdf",
-    "Obsidian Tutorial/LaTeX.pdf",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "Web/SSL",
-    "Web/Services/FTP",
-    "Web/React",
-    "Web/Services",
-    "Web/Redis",
-    "books/AllOfStatistics",
     "Untitled.canvas",
     "OperatingSystem/Commands/Untitled.canvas",
     "books/introduction_to_algorithms/Untitled.canvas",
     "Obsidian Tutorial/Untitled.canvas",
-    "Web/CGI/CGI.canvas",
-    "Web/Nginx/_Nginx.canvas"
+    "Web/CGI/CGI.canvas"
   ]
 }
