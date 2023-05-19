@@ -17,6 +17,8 @@ https://github.com/john-smilga/react-course-v3
  * children in props
  * key prop
  * events
+	 * event object (e)
+	 * preventDefault
 
 @Commands
 npx create-react-app@latest nameOfTheApp

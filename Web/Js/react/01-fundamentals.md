@@ -1345,6 +1345,7 @@ const Book = (props) => {
 const Book = (props) => {
   const { img, title, author, getBook, id } = props;
   // console.log(props);
+  // wraper
   const getSingleBook = () => {
     getBook(id);
   };
