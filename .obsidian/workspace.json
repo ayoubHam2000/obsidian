@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b90b7a7ca711d55c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Js/react/react_tableOfContent.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "a478fa392f23fbdc",
@@ -36,8 +49,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6af1a9faf9405c2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Js/react/02-TUTORIAL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Js/react/01-fundamentals.md",
+                "file": "Web/Js/react/react_tableOfContent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Js/react/01-fundamentals.md",
+                "file": "Web/Js/react/react_tableOfContent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Js/react/01-fundamentals.md"
+                "file": "Web/Js/react/react_tableOfContent.md"
               }
             }
           }
@@ -172,14 +198,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1677c0437d764401",
+  "active": "b90b7a7ca711d55c",
   "lastOpenFiles": [
     "Web/Js/react/Learn React 18 with Redux Toolkit – Full Tutorial for Beginners.md",
+    "Web/Js/react/react_tableOfContent.md",
+    "Web/Js/react/02-TUTORIAL.md",
     "Web/Js/react/01-fundamentals.md",
+    "Web/Js/react/02-topics.md",
     "Web/React/!React.md",
     "Web/Js/react",
     "Web/Js/!JS.md",
-    "Web/Js/react/react_tableOfContent.md",
     "Web/Js/NestJs Course for Beginners - Create a REST API.md",
     "Web/Js/Udemy-Complete NodeJS Developer in 2023 Course.md",
     "Web/PostgreSQL/PostgreSQL Tutorial Full Course 2022.md",
@@ -213,8 +241,6 @@
     "Web/Js/7. Web Servers with Node.js.md",
     "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
     "Web/Js/attachments/Screen Shot 2023-05-05 at 11.09.06 AM.png",
-    "Web/Js/5. Node.js Fundamentals Package Management.md",
-    "Web/Js/4. Node.js Fundamentals Module System.md",
     "Web/Js/attachments/2560px-MVC-Process.svg.png",
     "Web/Js/attachments/8.1 What_Is_Express_Middleware.png",
     "Web/Js/attachments/Screenshot from 2023-05-01 15-55-36.png",

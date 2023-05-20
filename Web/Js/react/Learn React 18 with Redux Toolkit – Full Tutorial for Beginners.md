@@ -6,6 +6,7 @@ https://github.com/john-smilga/react-course-v3
 
 
 [[01-fundamentals]]
+[[02-TUTORIAL]]
 
 ```js
 @Names
@@ -19,12 +20,19 @@ https://github.com/john-smilga/react-course-v3
  * events
 	 * event object (e)
 	 * preventDefault
+ * vite
+ * useState
+ * useEffect
+ * fetch data (fetch, axios)
+ * -
+
 
 @Commands
-npx create-react-app@latest nameOfTheApp
+	* npx create-react-app@latest nameOfTheApp
+	* npm create vite@latest
 
 @Libraries
-
+	* axios
 
 @Globla_libraries
 
@@ -32,6 +40,8 @@ npx create-react-app@latest nameOfTheApp
 	* auto rename tag
 	* prettier
 	* ES7+React
+	* spell checker
+	* glean
 
 
 ```
