@@ -24,6 +24,11 @@ https://github.com/john-smilga/react-course-v3
  * useState
  * useEffect
  * fetch data (fetch, axios)
+ * formData
+ * useRef
+ * Custom Hooks
+ * Context -> createContext/useContext
+ * useReducer
  * -
 
 
@@ -33,6 +38,7 @@ https://github.com/john-smilga/react-course-v3
 
 @Libraries
 	* axios
+	* vanila js
 
 @Globla_libraries
 
