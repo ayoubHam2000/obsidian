@@ -13,9 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/Js/react/Learn React 18 with Redux Toolkit – Full Tutorial for Beginners.md",
+                "file": "Web/Js/three_js/!Three.js.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "d265853b22f9236c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/Js/6. Node.js File IO - Planets Project.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d0fba4345b1f6248",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.4"
               }
             }
           },
@@ -32,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "a478fa392f23fbdc",
@@ -62,8 +84,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Web/Js/react/react_tableOfContent.md",
+                "file": "Web/Js/6. Node.js File IO - Planets Project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Web/Js/react/react_tableOfContent.md",
+                "file": "Web/Js/6. Node.js File IO - Planets Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Web/Js/react/react_tableOfContent.md"
+                "file": "Web/Js/6. Node.js File IO - Planets Project.md"
               }
             }
           }
@@ -198,12 +219,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b90b7a7ca711d55c",
+  "active": "d0fba4345b1f6248",
   "lastOpenFiles": [
+    "books/JavaScript                                 The Definitive Guide/Array.md",
+    "books/JavaScript                                 The Definitive Guide/notes.md",
+    "Web/Js/three_js/attachments/3hUZ2.jpg",
+    "Web/Js/three_js/attachments/3hUZ2.png",
+    "Web/Js/three_js/attachments/Screen Shot 2023-05-24 at 9.24.19 AM.png",
+    "Web/Js/three_js/attachments",
+    "Web/Js/socket io/!Socket IO.md",
+    "Web/Js/three_js/!Three.js.md",
+    "Web/Js/three_js",
     "Web/Js/react/Learn React 18 with Redux Toolkit – Full Tutorial for Beginners.md",
-    "Web/Js/react/react_tableOfContent.md",
-    "Web/Js/react/02-TUTORIAL.md",
+    "Web/Js/socket io",
     "Web/Js/react/01-fundamentals.md",
+    "Web/Js/react/02-TUTORIAL.md",
+    "Web/Js/react/react_tableOfContent.md",
     "Web/Js/react/02-topics.md",
     "Web/React/!React.md",
     "Web/Js/react",
@@ -220,9 +251,6 @@
     "Web/PostgreSQL/attachments/postgresql/tools",
     "Web/PostgreSQL/attachments/postgresql/docker-compose.yml",
     "Web/PostgreSQL/attachments/postgresql/config",
-    "Web/PostgreSQL/attachments/postgresql/Dockerfile",
-    "Web/PostgreSQL/attachments/postgresql",
-    "Web/PostgreSQL/attachments/postgresql.tar.gz",
     "Web/PostgreSQL/!PostgreSQL.md",
     "Web/!Web.md",
     "Web/SSL/!SSL.md",
@@ -236,18 +264,11 @@
     "Web/Js/9. NASA Project.md",
     "Web/Js/10. Testing APIs.md",
     "Web/Js/12. Databases.md",
-    "books/JavaScript                                 The Definitive Guide/A Tour Of JavaScript.md",
-    "books/JavaScript                                 The Definitive Guide/Operators.md",
-    "Web/Js/7. Web Servers with Node.js.md",
-    "books/JavaScript                                 The Definitive Guide/The JavaScript Standard Library.md",
     "Web/Js/attachments/Screen Shot 2023-05-05 at 11.09.06 AM.png",
     "Web/Js/attachments/2560px-MVC-Process.svg.png",
     "Web/Js/attachments/8.1 What_Is_Express_Middleware.png",
     "Web/Js/attachments/Screenshot from 2023-05-01 15-55-36.png",
     "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-15 at 3.48.04 AM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-13 at 12.37.12 AM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 9.26.39 PM.png",
-    "books/JavaScript                                 The Definitive Guide/attachments/Screen Shot 2023-04-12 at 8.42.01 PM.png",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "Untitled.canvas",
