@@ -1,0 +1,1 @@
+When we have used the entire dataset once in performing forward and back propagation, that is called an epoch

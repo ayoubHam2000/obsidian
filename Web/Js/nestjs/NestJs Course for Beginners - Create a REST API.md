@@ -122,3 +122,25 @@ npm install --save @nestjs/jwt passport-jwt
 npm install --save-dev @types/passport-jwt 
 
 ```
+
+
+## Other
+
+
+```
+npm install --save class-validator class-transformer
+npm install argon2
+npm install @nestjs/config
+
+npm install --save @nestjs/passport passport passport-local
+npm install --save-dev @types/passport-local
+
+npm install --save @nestjs/jwt passport-jwt
+npm install --save-dev @types/passport-jwt
+
+app.useGlobalPipes(new ValidationPipe({
+	whitelist : true
+}))
+
+signup(@Body() req : AuthDto)
+```
