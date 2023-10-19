@@ -79,19 +79,58 @@
 
 ![[Screenshot from 2023-10-01 15-46-22.png]]
 
+#### Regularization
+
+- Technique that constrains our optimization problem to discourage complex models.
+- Improve generalization of our model on unseen data
+- 1. Dropout
+	- During training, randomly set some activation to 0
+- 2. Early stopping
+	- Stop training before we have chance to overfit
+
+
+#### Metrics
+
+- https://willkoehrsen.github.io/statistics/learning/beyond-accuracy-precision-and-recall/
+	- accuracy is not good for -> imbalanced classification problem.
+	- The F1 score is the harmonic mean of precision and recall taking both metrics into account
+	- Fβ metric where β can be adjusted to give more weight to either recall or precision.
+	- The **Fowlkes–Mallows index**
+	- the ROC curve shows how the recall vs precision relationship changes as we vary the threshold for identifying a positive in our model. The threshold represents the value above which a data point is considered in the positive class
+
 #### Classification
 
 - logits layer
 - softmax
 - binary cross entropy (loss fun) 
 - categorical cross entropy (loss fun)
+	- entropy
+	- KL Divergence
 - SGD
 - Adam
+	- AdaGrad
+	- SGD with momentum
+	- RMSProp
 - sigmoid activation function 
+- classification evaluation metrics
+	- Accuracy
+	- Precision
+	- Recall
+	- F1-score
+	- Confusion matrix
+	- Classification report
+![[Screen Shot 2023-10-15 at 11.43.11 AM.png]]
+
+
+## Computer Vision
+
+![[Computer Vision]]
 
 ## Functions and methods
 
 [[functions and methods]]
+
+[[Geometric series]]
 
 ## keywords
 
@@ -147,3 +186,55 @@ https://www.youtube.com/watch?v=ARfXDSkQf1Y
 
 L8.4 Logits and Cross Entropy
 https://www.youtube.com/watch?v=icQaFxKa_J0
+
+#### Metric
+Recall, accuracy, precesion
+https://www.youtube.com/watch?v=qWfzIYCvBqo
+https://www.youtube.com/watch?v=BYQQlCVt4aE
+https://www.analyticsvidhya.com/blog/2020/09/precision-recall-machine-learning/
+https://www.evidentlyai.com/classification-metrics/accuracy-precision-recall
+confusion matrix
+https://www.youtube.com/watch?v=Kdsp6soqA7o
+Sensitivity and Specificity
+https://www.youtube.com/watch?v=vP06aMoz4v8
+ROC (receiver operator characteristic graph ) and AUC (the area under the curve )
+https://www.youtube.com/watch?v=4jRBRDbJemM
+
+#### functions
+https://en.wikipedia.org/wiki/Activation_function#Table_of_activation_functions
+softmax
+https://www.youtube.com/watch?v=p-6wUOXaVqs
+cross entropy
+https://www.youtube.com/watch?v=6ArSys5qHAU&t=3s
+
+#### Entropy
+https://www.youtube.com/watch?v=YtebGVx-Fxw
+Mutual Information
+#### Adam & AdaGrad & AdaDelta…
+https://medium.com/@nishantnikhil/adam-optimizer-notes-ddac4fd7218
+https://www.youtube.com/watch?v=5KyxlN3M7HQ
+https://www.youtube.com/watch?v=NE88eqLngkg 
+https://www.youtube.com/watch?v=7m8f0hP8Fzo
+https://www.youtube.com/watch?v=iudXf5n_3ro
+
+#### Lectures
+
+MIT Introduction to Deep Learning (2022) | 6.S191
+https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI
+http://introtodeeplearning.com/
+#### youtube channels
+
+https://www.youtube.com/@statquest
+https://www.youtube.com/@Mutual_Information/videos
+https://www.youtube.com/@elliotwaite/featured
+
+#### Convolutional Neural Networks
+
+https://www.youtube.com/watch?v=YRhxdVk_sIs
+https://www.youtube.com/watch?v=Lakz2MoHy6o
+In Depth Explanation | Convolutional Neural Networks | From Scratch
+https://www.youtube.com/watch?v=jDe5BAsT2-Y
+
+#### Other
+
+https://www.nutrify.app/

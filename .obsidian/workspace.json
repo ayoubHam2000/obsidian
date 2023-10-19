@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "1274978c74fe3ec9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cbc31952aa10cff9",
             "type": "leaf",
             "state": {
@@ -109,7 +121,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "!react",
+                "query": "#math",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -134,7 +146,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -154,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
+                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
+                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md"
+                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md"
               }
             }
           },
@@ -225,16 +238,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbc31952aa10cff9",
+  "active": "1274978c74fe3ec9",
   "lastOpenFiles": [
     "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+    "Math/Algebra/Geometric series.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/attachments/Screen Shot 2023-10-15 at 11.43.11 AM.png",
     "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
-    "Ai/Pytorch/!Pytorch.md",
     "Ai/Want to learn.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
+    "Ai/Pytorch/!Pytorch.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/PyTorch for Deep Learning & Machine Learning – Full Course.md",
     "Ai/!Ai.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/Epoch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/attachments/workflow.png",
     "Ai/Pytorch/Video_Pytorch for deep learning/attachments/Screenshot from 2023-10-01 15-46-22.png",
@@ -262,8 +278,6 @@
     "Web/Js/nodejs/7. Web Servers with Node.js.md",
     "Web/Js/nodejs/5. Node.js Fundamentals Package Management.md",
     "Web/Js/nestjs",
-    "Web/Css/css_properties.md",
-    "Web/Css/_Css Main.md",
     "Web/Css/attachments/vlcsnap-2023-09-06-15h56m10s771.png",
     "Web/Css/attachments",
     "Web/CGI/CGI.canvas",
@@ -275,7 +289,6 @@
     "Web/Nginx/!Nginx.canvas",
     "Web/Docker/!Docker.canvas",
     "Web/Js/attachments/Screen Shot 2023-05-05 at 11.09.06 AM.png",
-    "Web/Js/attachments/2560px-MVC-Process.svg.png",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "Untitled.canvas",

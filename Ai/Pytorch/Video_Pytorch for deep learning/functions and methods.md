@@ -240,6 +240,27 @@ model.train()
 - BCEWithLogitsLoss -> sigmoid function buit-in
 
 ```
+## classification evaluation metrics
+evaluating a classification model (accuracy, loss and visualizing predictions)
+
+- Accuracy: shows how often a classification ML model is correct overall.
+- Precision: shows how often an ML model is correct when predicting the target class.
+- Recall: shows whether an ML model can find all objects of the target class.
+
+F1-score
+Confusion matrix
+
+Classification report : Collection of some of the main classification metrics such as precision, recall and f1-score.
+
+1.
+In short conclusion, "precision" tells the consistency of making the same result ,and "accuracy" tells how close or far is your result from the real one.
+
+Precision is useful when the **cost of a false positive** is high. In this case, you typically want to be **confident in identifying the target class,** even if you miss out on some (or many) instances.
+
+
+```
+
+```
 https://github.com/mrdbourke/pytorch-deep-learning/blob/main/02_pytorch_classification.ipynb
 
 - To recap, we converted our model's raw outputs (logits) to predicition probabilities using a sigmoid activation function.
