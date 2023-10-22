@@ -234,7 +234,8 @@ https://www.youtube.com/watch?v=YRhxdVk_sIs
 https://www.youtube.com/watch?v=Lakz2MoHy6o
 In Depth Explanation | Convolutional Neural Networks | From Scratch
 https://www.youtube.com/watch?v=jDe5BAsT2-Y
-
+cnn-explainer
+https://poloclub.github.io/cnn-explainer/
 #### Other
 
 https://www.nutrify.app/
