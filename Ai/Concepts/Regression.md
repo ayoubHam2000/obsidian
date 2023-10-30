@@ -1,0 +1,2 @@
+- Predict a number 
+- infinitely many possible inputs

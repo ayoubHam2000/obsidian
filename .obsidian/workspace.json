@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md"
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md"
               }
             }
           },
@@ -239,8 +239,17 @@
   },
   "active": "1274978c74fe3ec9",
   "lastOpenFiles": [
-    "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
+    "Ai/Machine learning coursera/Classification.md",
+    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+    "Ai/Concepts/Regression.md",
+    "Ai/Concepts",
+    "Ai/!Ai.md",
+    "Ai/Machine learning coursera",
     "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/DataSets with pytorch.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/attachments/Screen Shot 2023-10-22 at 5.57.06 PM.png",
+    "Ai/Pytorch/Video_Pytorch for deep learning/attachments/Screen Shot 2023-10-22 at 5.56.55 PM.png",
     "Math/Algebra/Geometric series.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/attachments/Screen Shot 2023-10-15 at 11.43.11 AM.png",
     "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
@@ -248,7 +257,6 @@
     "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
     "Ai/Pytorch/!Pytorch.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/PyTorch for Deep Learning & Machine Learning – Full Course.md",
-    "Ai/!Ai.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/Epoch.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/attachments/workflow.png",
@@ -271,23 +279,15 @@
     "Web/Js/nodejs/4. Node.js Fundamentals Module System.md",
     "Web/Css/css_tailwind.md",
     "Web/Js/!JS.md",
-    "Web/Js/react/Learn React 18 with Redux Toolkit – Full Tutorial for Beginners.md",
     "Web/Js/nodejs",
-    "Web/Js/nodejs/8. First Express.js API.md",
-    "Web/Js/nodejs/7. Web Servers with Node.js.md",
-    "Web/Js/nodejs/5. Node.js Fundamentals Package Management.md",
-    "Web/Js/nestjs",
     "Web/Css/attachments/vlcsnap-2023-09-06-15h56m10s771.png",
-    "Web/Css/attachments",
     "Web/CGI/CGI.canvas",
     "Web/Js/three_js/attachments/3hUZ2.jpg",
     "Web/Js/three_js/attachments/3hUZ2.png",
     "Web/Js/three_js/attachments/Screen Shot 2023-05-24 at 9.24.19 AM.png",
     "Web/PostgreSQL/attachments/Screen Shot 2023-05-08 at 8.55.00 AM.png",
-    "Web/PostgreSQL/attachments/Screen Shot 2023-05-08 at 8.19.46 AM.png",
     "Web/Nginx/!Nginx.canvas",
     "Web/Docker/!Docker.canvas",
-    "Web/Js/attachments/Screen Shot 2023-05-05 at 11.09.06 AM.png",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "Untitled.canvas",

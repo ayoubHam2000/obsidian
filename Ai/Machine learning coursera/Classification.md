@@ -1,0 +1,2 @@
+- predict categories
+- small number of possible outputs

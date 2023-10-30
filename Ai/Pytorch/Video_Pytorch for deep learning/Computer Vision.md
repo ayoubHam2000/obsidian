@@ -39,9 +39,25 @@ if your data is just as useful after swapping any of your columns with each othe
 most common convolutional neural networks
 https://www.topbots.com/important-cnn-architectures/
 
-confmat ??
+- Images deal with many variation
+	- ViewPoint variation
+	- scale
+	- illumination
+	- deformation
+	- background clutter
+	- objects classes variation
+	- occlusion : obstruction or blocking of one object or part of an object by another,
 
+- connect part of the input image to a single neuron in the hidden layer 
+	- neuron is this case is the kernel 
+![[Screen Shot 2023-10-22 at 5.56.55 PM.png]]
+![[Screen Shot 2023-10-22 at 5.57.06 PM.png]]
 
+## Hands on machine learning
+
+- MaxPooling : it is possible to get some level of invariance (rotation invariance, scale invariance)
+- Another problem with CNNs is that the convolutional layers require a huge amount of RAM.
+- maxPolling generally perform better, it preserves only the strongest features so the next layer get cleaner signal to work with. Moreover, max pooling offers stronger translation invariance than average pooling.
 
 ## notes
 
@@ -56,3 +72,16 @@ matplotlib
 pathlib
 os
 sys
+requests
+zipfile
+from PIL import Image
+
+## Used For
+
+- image search
+- self-driving car
+- automatic classification video
+- voice recognition
+- natural text processing 
+
+argmax
