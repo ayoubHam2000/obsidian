@@ -7,8 +7,69 @@
 - unsupervised learning
 - reinforcement learning
 - Cost function
-$$ J(\omega, b) = \frac{1}{2m} \sum_{1}^{m}  $$
+$$ J(\omega, b) = \frac{1}{2m} \sum_{1}^{m} (\hat y_i - y_i)^2  $$ $$ \hat y_i = f_{\omega, b} (x_i)$$ 
 
+to
+$$ minimize\ J(\omega, b) $$
+
+- loss function
+- gradient descent
+- learning rate
+- batch gradient descent
+
+- Model
+$$ f_{\vec{w}, b}(\vec{x}) = w_1x_1 + w_2x_2 +\ ... \ + w_nx_n + b $$
+$$ \vec{x} = [x_1, x_2, ..., x_n] \ \ \ \vec{w} = [w_1, w_2, ..., w_n] $$ $$ f_{\vec{w}, b}(\vec{x}) = \vec{w} . \vec{x} + b $$
+- vectorization -> can be benefit from parallelism
+- gradient descent
+$$
+
+\begin{aligned}
+w_i = w_i - \frac{\partial J(w_1, w_2, ..., w_n, b)}{\partial w_i}\\
+b = b - \frac{\partial J(w_1, w_2, ..., w_n, b)}{\partial b}
+\end{aligned}
+
+$$
+![[Screenshot from 2023-11-01 13-23-43.png]]
+
+- mean normalization
+$$ x = \frac{x - averge}{max - min} $$
+z-score normalization
+$$ x = \frac{x - mean }{standard\ deviation} $$
+- https://developers.google.com/machine-learning/data-prep/transform/normalization
+
+- adjusting the learning rate
+	- not very large
+	- not very small
+- feature engineering
+	- Using intuition to design new feature by transforming or combining original features.
+- Polynomial regression and feature engineering => by using square root of x or x cube or ...
+
+- logistic regression
+- decision boundary and non-linear decision boundary.
+- logistic function outputs between 0 and 1 like when using sigmoid function
+
+![[Screenshot from 2023-11-02 10-38-46.png]]
+![[Screenshot from 2023-11-02 10-46-10.png]]
+![[Screenshot from 2023-11-02 10-51-42.png]]
+![[Screenshot from 2023-11-02 10-52-03.png]]
+
+
+$$ L(f_{\vec{w}, b}(\vec{x^{(i)}}), y^{(i)}) = -y^{(i)} * log(f_{\vec{w}, b}(\vec{x^{(i)}})) - (1 - y^{(i)}) * log(1 - f_{\vec{w}, b}(\vec{x^{(i)}})) $$
+$$ J(\vec{w}, b, \vec{x^{(i)}}, y^{(i)}) = \frac{1}{m} \sum_{1}^{m} [ L(f_{\vec{w}, b}(\vec{x^{(i)}}), y^{(i)}) ]$$
+### Overfitting
+
+![[Screenshot from 2023-11-04 14-38-59.png]]
+- high bias
+- generalization
+- high variance
+- insufficient data and selecting many features can cause overfitting.
+	- Regularization can reduce overfitting by:
+		- Reduce the size of parameter **i** 
+		- keep all the futures
+		- Increasing the regularization parameter lambdalambda reduces overfitting by reducing the size of the parameters.  For some parameters that are near zero, this reduces the effect of the associated features.
+		- multiplying weight by large value Lambda can make their values small daring the training hence reduce the overfitting
+$$ J(\omega, b) = \frac{1}{2m} \sum_{1}^{m} (\hat y_i - y_i)^2 + \frac{\lambda}{2m} \sum_{j=7}^n w_j^2 $$
 ## Keywords
 
 - features
