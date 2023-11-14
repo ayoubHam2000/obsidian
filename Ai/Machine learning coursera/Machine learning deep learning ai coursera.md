@@ -1,4 +1,4 @@
-
+	
 - What is machine learning
 - application of machine learning
 - supervised learning
@@ -26,14 +26,17 @@ $$
 
 \begin{aligned}
 w_i = w_i - \frac{\partial J(w_1, w_2, ..., w_n, b)}{\partial w_i}\\
-b = b - \frac{\partial J(w_1, w_2, ..., w_n, b)}{\partial b}
+b = b - \frac{\partial J(w_1, w_2, ..., w_n, b)}{\partial b}\\
+\frac{\partial J}{\partial \omega} = \frac{1}{m}\sum_{i=0}^{m-1} (f_{\omega, b}(x^{(i)}) - y^{(i)}) * x^{(i)} \\
+\frac{\partial J}{\partial b} = \frac{1}{m}\sum_{i=0}^{m-1} (f_{\omega, b}(x^{(i)}) - y^{(i)})
+
 \end{aligned}
 
 $$
 ![[Screenshot from 2023-11-01 13-23-43.png]]
 
 - mean normalization
-$$ x = \frac{x - averge}{max - min} $$
+$$ x = \frac{x - mean}{max - min} $$
 z-score normalization
 $$ x = \frac{x - mean }{standard\ deviation} $$
 - https://developers.google.com/machine-learning/data-prep/transform/normalization
@@ -57,6 +60,31 @@ $$ x = \frac{x - mean }{standard\ deviation} $$
 
 $$ L(f_{\vec{w}, b}(\vec{x^{(i)}}), y^{(i)}) = -y^{(i)} * log(f_{\vec{w}, b}(\vec{x^{(i)}})) - (1 - y^{(i)}) * log(1 - f_{\vec{w}, b}(\vec{x^{(i)}})) $$
 $$ J(\vec{w}, b, \vec{x^{(i)}}, y^{(i)}) = \frac{1}{m} \sum_{1}^{m} [ L(f_{\vec{w}, b}(\vec{x^{(i)}}), y^{(i)}) ]$$
+
+- The fact that the cost function squares the loss ensures that the 'error surface' is convex like a soup bowl. It will always have a minimum that can be reached by following the gradient in all dimensions. In the previous plot, because the 𝑤 and 𝑏 dimensions scale differently, this is not easy to recognize. The following plot, where 𝑤 and 𝑏 are symmetric, was shown in lecture
+
+## 2.1 Matrix X containing our examples
+Each row of the matrix represents one example. When you have $m$ training examples ( $m$ is three in our example), and there are $n$ features (four in our example), $\mathbf{X}$ is a matrix with dimensions ($m$, $n$) (m rows, n columns).
+
+
+$$\mathbf{X} = 
+\begin{pmatrix}
+ x^{(0)}_0 & x^{(0)}_1 & \cdots & x^{(0)}_{n-1} \\ 
+ x^{(1)}_0 & x^{(1)}_1 & \cdots & x^{(1)}_{n-1} \\
+ \cdots \\
+ x^{(m-1)}_0 & x^{(m-1)}_1 & \cdots & x^{(m-1)}_{n-1} 
+\end{pmatrix}
+$$
+notation:
+- $\mathbf{x}^{(i)}$ is vector containing example  $\mathbf{x}^{(i)}$ $= (x^{(i)}_0, x^{(i)}_1, \cdots,x^{(i)}_{n-1})$
+- $x^{(i)}_j$ is element j in example.
+
+
+
+### Cost vs Loss
+
+- Loss function: Used when we refer to the error for a single training example. Cost function: Used to refer to an average of the loss functions over an entire training data.
+
 ### Overfitting
 
 ![[Screenshot from 2023-11-04 14-38-59.png]]
@@ -70,6 +98,10 @@ $$ J(\vec{w}, b, \vec{x^{(i)}}, y^{(i)}) = \frac{1}{m} \sum_{1}^{m} [ L(f_{\vec{
 		- Increasing the regularization parameter lambdalambda reduces overfitting by reducing the size of the parameters.  For some parameters that are near zero, this reduces the effect of the associated features.
 		- multiplying weight by large value Lambda can make their values small daring the training hence reduce the overfitting
 $$ J(\omega, b) = \frac{1}{2m} \sum_{1}^{m} (\hat y_i - y_i)^2 + \frac{\lambda}{2m} \sum_{j=7}^n w_j^2 $$
+## Notes
+
+- less weight value implies less important/correct feature, and in extreme, when the weight becomes zero or very close to zero, the associated feature is not useful in fitting the model to the data.
+
 ## Keywords
 
 - features

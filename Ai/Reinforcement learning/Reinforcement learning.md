@@ -13,7 +13,7 @@ $$ s \in S,\ \pi(a|s) \ is \ the \ probability\ of\ taking\ action\ a\ in\ state
 - State-value function:
 $$ \begin{align*} 
 	\text{The sate value function for policy } \pi, \text{denoted as } v_{\pi}(s),\\
-	\text{tell as how good any given state is for an agent follow policiy } \pi
+	\text{tell as how good any given state is for an agent following policiy } \pi
 	\end{align*}
 $$
 $$ v_{\pi}(s) = E[G_t | S_t=s] $$

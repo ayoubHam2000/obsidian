@@ -1,9 +1,9 @@
 {
 	"nodes":[
 		{"type":"file","file":"books/introduction_to_algorithms/P NP NP-complete NP-Hard.md","id":"3cbd4a511282b30a","x":-460,"y":40,"width":400,"height":400},
-		{"type":"file","file":"books/introduction_to_algorithms/Key Words.md","id":"3cb4506269541fdb","x":-720,"y":-820,"width":400,"height":400},
-		{"type":"file","file":"books/introduction_to_algorithms/Algorithm.md","id":"7717f4517e8ae1e2","x":-260,"y":-820,"width":400,"height":400},
-		{"type":"text","text":"Algorithms","id":"e3587e35931a500f","x":-385,"y":-200,"width":250,"height":60}
+		{"type":"text","text":"Algorithms","id":"e3587e35931a500f","x":-385,"y":-200,"width":250,"height":60},
+		{"type":"file","file":"books/introduction_to_algorithms/Key Words.md","id":"3cb4506269541fdb","x":-720,"y":-780,"width":400,"height":400},
+		{"type":"file","file":"books/introduction_to_algorithms/Algorithm.md","id":"7717f4517e8ae1e2","x":-260,"y":-780,"width":400,"height":400}
 	],
 	"edges":[]
 }
