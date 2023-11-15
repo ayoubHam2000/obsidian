@@ -53,6 +53,10 @@ $$ x = \frac{x - mean }{standard\ deviation} $$
 - logistic function outputs between 0 and 1 like when using sigmoid function
 
 ![[Screenshot from 2023-11-02 10-38-46.png]]
+### Cost vs Loss
+
+- Loss function: Used when we refer to the error for a single training example. Cost function: Used to refer to an average of the loss functions over an entire training data.
+
 ![[Screenshot from 2023-11-02 10-46-10.png]]
 ![[Screenshot from 2023-11-02 10-51-42.png]]
 ![[Screenshot from 2023-11-02 10-52-03.png]]
@@ -63,7 +67,7 @@ $$ J(\vec{w}, b, \vec{x^{(i)}}, y^{(i)}) = \frac{1}{m} \sum_{1}^{m} [ L(f_{\vec{
 
 - The fact that the cost function squares the loss ensures that the 'error surface' is convex like a soup bowl. It will always have a minimum that can be reached by following the gradient in all dimensions. In the previous plot, because the 𝑤 and 𝑏 dimensions scale differently, this is not easy to recognize. The following plot, where 𝑤 and 𝑏 are symmetric, was shown in lecture
 
-## 2.1 Matrix X containing our examples
+## Matrix representation
 Each row of the matrix represents one example. When you have $m$ training examples ( $m$ is three in our example), and there are $n$ features (four in our example), $\mathbf{X}$ is a matrix with dimensions ($m$, $n$) (m rows, n columns).
 
 
@@ -81,9 +85,7 @@ notation:
 
 
 
-### Cost vs Loss
 
-- Loss function: Used when we refer to the error for a single training example. Cost function: Used to refer to an average of the loss functions over an entire training data.
 
 ### Overfitting
 
@@ -95,12 +97,31 @@ notation:
 	- Regularization can reduce overfitting by:
 		- Reduce the size of parameter **i** 
 		- keep all the futures
-		- Increasing the regularization parameter lambdalambda reduces overfitting by reducing the size of the parameters.  For some parameters that are near zero, this reduces the effect of the associated features.
+		- Increasing the regularization parameter lambda reduces overfitting by reducing the size of the parameters.  For some parameters that are near zero, this reduces the effect of the associated features.
 		- multiplying weight by large value Lambda can make their values small daring the training hence reduce the overfitting
-$$ J(\omega, b) = \frac{1}{2m} \sum_{1}^{m} (\hat y_i - y_i)^2 + \frac{\lambda}{2m} \sum_{j=7}^n w_j^2 $$
+$$ J(\omega, b) = \frac{1}{2m} \sum_{1}^{m} (\hat y_i - y_i)^2 + \frac{\lambda}{2m} \sum_{j=1}^n w_j^2 $$
+
 ## Notes
 
 - less weight value implies less important/correct feature, and in extreme, when the weight becomes zero or very close to zero, the associated feature is not useful in fitting the model to the data.
+
+```python
+#sklearn
+
+from sklearn.linear_model import SGDRegressor
+from sklearn.preprocessing import StandradScalar
+
+scalar = StandardScalar()
+X_norm = scalar.fit_transform(X_train)
+
+sgdr = SGDRegressor(max_iter=1000)
+sgdr.fit(X_norm, y_train)
+b_norm = sgdr.intercept_
+w_norm = sgdr.coef_
+y_pred = sgdr.predict(X_norm)
+
+
+```
 
 ## Keywords
 
