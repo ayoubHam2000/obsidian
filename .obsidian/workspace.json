@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "Ai/Reinforcement learning/Reinforcement learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "Ai/Reinforcement learning/Reinforcement learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "Ai/Reinforcement learning/Reinforcement learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md"
+                "file": "Ai/Reinforcement learning/Reinforcement learning.md"
               }
             }
           },
@@ -239,7 +239,12 @@
   },
   "active": "5b165bd4a60c9e4b",
   "lastOpenFiles": [
+    "Ai/Reinforcement learning/attachments/Screenshot from 2023-11-22 14-52-39.png",
+    "Ai/Reinforcement learning/attachments",
     "Ai/Machine learning coursera/Classification.md",
+    "Ai/Machine learning coursera/Tmp.md",
+    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-15 10-00-22.png",
     "Ai/Conda/Anconda.md",
     "Ai/Concepts/Regression.md",
     "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
@@ -254,7 +259,6 @@
     "books/introduction_to_algorithms/Amortized Analysis.md",
     "books/introduction_to_algorithms/Traveling Salesperson Problem.md",
     "Ai/Reinforcement learning/Reinforcement learning.md",
-    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
     "Ai/Pytorch/!Pytorch.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
     "Ai/Reinforcement learning",
@@ -271,7 +275,6 @@
     "Ai/Machine learning coursera",
     "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/DataSets with pytorch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/attachments/Screen Shot 2023-10-22 at 5.57.06 PM.png",
     "Math/Algebra/Geometric series.md",
     "Ai/Want to learn.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
@@ -280,12 +283,9 @@
     "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/attachments",
     "Ai/Pytorch/Video_Pytorch for deep learning",
-    "Web/Js/nodejs/1-3.introduction.md",
-    "Web/Css/css general.md",
     "Ai/Pytorch",
     "English/Tenses",
     "English",
-    "Ai/Conda",
     "Web/CGI/CGI.canvas",
     "Web/Nginx/!Nginx.canvas",
     "Web/Docker/!Docker.canvas",

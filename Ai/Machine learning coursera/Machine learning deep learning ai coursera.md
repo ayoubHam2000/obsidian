@@ -61,7 +61,41 @@ $$ x = \frac{x - mean }{standard\ deviation} $$
 ![[Screenshot from 2023-11-02 10-51-42.png]]
 ![[Screenshot from 2023-11-02 10-52-03.png]]
 
+This is defined: 
+* $loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)})$ is the cost for a single data point, which is:
 
+$$
+\begin{equation}
+  loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = \begin{cases}
+    - \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) & \text{if $y^{(i)}=1$}\\
+    - \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) & \text{if $y^{(i)}=0$}
+  \end{cases}
+\end{equation}
+$$
+
+
+*  $f_{\mathbf{w},b}(\mathbf{x}^{(i)})$ is the model's prediction, while $y^{(i)}$ is the target value.
+
+*  $f_{\mathbf{w},b}(\mathbf{x}^{(i)}) = g(\mathbf{w} \cdot\mathbf{x}^{(i)}+b)$ where function $g$ is the sigmoid function.
+
+$$loss(f_{\mathbf{w},b}(\mathbf{x}^{(i)}), y^{(i)}) = (-y^{(i)} \log\left(f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right) - \left( 1 - y^{(i)}\right) \log \left( 1 - f_{\mathbf{w},b}\left( \mathbf{x}^{(i)} \right) \right)$$
+
+	![[Screenshot from 2023-11-15 10-00-22.png]]
+
+- This curve is well suited to gradient descent! It does not have plateaus
+
+
+```python
+#Logistic Regression
+
+from sklearn.linear_model import LogisticRegression
+
+lr_model = LogisticRegression()
+lr_model.fit(X, y)
+lr_model.predict(X)
+lr_model.score(X, y)
+
+```
 $$ L(f_{\vec{w}, b}(\vec{x^{(i)}}), y^{(i)}) = -y^{(i)} * log(f_{\vec{w}, b}(\vec{x^{(i)}})) - (1 - y^{(i)}) * log(1 - f_{\vec{w}, b}(\vec{x^{(i)}})) $$
 $$ J(\vec{w}, b, \vec{x^{(i)}}, y^{(i)}) = \frac{1}{m} \sum_{1}^{m} [ L(f_{\vec{w}, b}(\vec{x^{(i)}}), y^{(i)}) ]$$
 
