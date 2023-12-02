@@ -182,7 +182,8 @@ $$ e_t = (s_t, a_t, r_{t+1}, s_{t+1}) $$
 - If the network learned only from consecutive samples of experience as they occurred sequentially in the environment, the samples would be highly correlated and would therefore lead to inefficient learning. Taking random samples from replay memory breaks this correlation.
 1. Initialize replay memory capacity.
 2. Initialize the network with random weights.
-3. _For each episode:_
+3. Clone the policy network, and call it the target network
+4. _For each episode:_
 	1. Initialize the starting state.
 	2. _For each time step:_
 		1. Select an action.
@@ -190,3 +191,9 @@ $$ e_t = (s_t, a_t, r_{t+1}, s_{t+1}) $$
 	3. Execute selected action in an emulator.
 	4. Observe reward and next state.
 	5. Store experience in replay memory.
+	6. Preprocess stated from batch
+	7. Pass batch of preprocessed states to policy network
+	8. Calculate loss between output Q-value and target Q-values
+		1. Requires a second pass to the network for the next state
+	9. Gradient descent updates weights in the policy network to minimize loss.
+		1. After $x$ times steps, weights in the target network are updated to the weights in the policy network

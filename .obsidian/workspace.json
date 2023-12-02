@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Reinforcement learning/Reinforcement learning.md",
+                "file": "Ai/Conda/Anconda.md",
                 "mode": "source",
                 "source": false
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ai/Reinforcement learning/Reinforcement learning.md",
+                "file": "Ai/Conda/Anconda.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ai/Reinforcement learning/Reinforcement learning.md",
+                "file": "Ai/Conda/Anconda.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/Reinforcement learning/Reinforcement learning.md"
+                "file": "Ai/Conda/Anconda.md"
               }
             }
           },
@@ -239,6 +239,7 @@
   },
   "active": "5b165bd4a60c9e4b",
   "lastOpenFiles": [
+    "Ai/Reinforcement learning/Reinforcement learning.md",
     "Ai/Reinforcement learning/attachments/Screenshot from 2023-11-22 14-52-39.png",
     "Ai/Reinforcement learning/attachments",
     "Ai/Machine learning coursera/Classification.md",
@@ -258,7 +259,6 @@
     "books/introduction_to_algorithms/Key Words.md",
     "books/introduction_to_algorithms/Amortized Analysis.md",
     "books/introduction_to_algorithms/Traveling Salesperson Problem.md",
-    "Ai/Reinforcement learning/Reinforcement learning.md",
     "Ai/Pytorch/!Pytorch.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
     "Ai/Reinforcement learning",
@@ -268,7 +268,6 @@
     "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
     "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-02 10-46-10.png",
     "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-02 10-38-46.png",
-    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-01 13-23-43.png",
     "Ai/Machine learning coursera/attachments",
     "Ai/Concepts",
     "Ai/!Ai.md",
