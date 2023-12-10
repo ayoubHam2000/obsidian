@@ -24,3 +24,39 @@
 7. **Describing the Atmosphere or Condition:** It can be used to describe the atmosphere or condition of a place or situation in the past. For example:
     
     - "The party was loud, and people were dancing."
+
+
+
+## Countable / Uncountable 
+
+Countable -> in the singular form, put a or an
+	- Give me a chair please
+Uncountable -> you don't need an or an
+	- I need Food || (talata ta3am ??!!)
+	- Is that goat cheese  || you can't say there cheese (talta jobn)
+	- You know i can't eat butter
+	- now all i have is cold milk
+Proper nouns
+	-> A proper noun is **a noun that serves as the name for a specific place, person, or thing**. To distinguish them from common nouns, proper nouns are always capitalized in English. 
+	-> also you don't need to use a or an.
+	- You come with us to Cairo
+Nouns That can countable and uncountable depending on the context
+- **Time**:
+    - Uncountable: "Time flies."
+    - Countable: "I have visited Italy three times."
+- **Work**:
+    - Uncountable: "I have a lot of work to do."
+    - Countable: "She completed three works this month."
+- **Chicken**
+   - We have three cows and twelve chickens in our farm
+   - Do want to eat chicken 
+- Coffee
+	- Do you want coffee ? -> checking if coffee is an option 
+	- Can i get a coffee ? -> number of how much do you want
+
+
+I think i found a hair in my food
+The boy has cute smile
+Leave me alone. I don't drink soda
+I would like to travel to Brazil
+Mom make soup for dinner

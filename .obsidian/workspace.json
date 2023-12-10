@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "Physics/CFD/CFD.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ai/Conda/Anconda.md",
+                "file": "Physics/CFD/CFD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ai/Conda/Anconda.md",
+                "file": "Physics/CFD/CFD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/Conda/Anconda.md"
+                "file": "Physics/CFD/CFD.md"
               }
             }
           },
@@ -237,16 +237,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b165bd4a60c9e4b",
+  "active": "efcd6517d4dede5c",
   "lastOpenFiles": [
+    "English/Tenses/Tenses.md",
+    "Physics/CFD/CFD.md",
+    "Physics/CFD",
+    "Physics",
+    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+    "Ai/Conda/Anconda.md",
     "Ai/Reinforcement learning/Reinforcement learning.md",
     "Ai/Reinforcement learning/attachments/Screenshot from 2023-11-22 14-52-39.png",
     "Ai/Reinforcement learning/attachments",
     "Ai/Machine learning coursera/Classification.md",
     "Ai/Machine learning coursera/Tmp.md",
-    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
     "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-15 10-00-22.png",
-    "Ai/Conda/Anconda.md",
     "Ai/Concepts/Regression.md",
     "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
     "books/introduction_to_algorithms/attachments/V3KXz 1.png",
@@ -279,12 +283,9 @@
     "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/PyTorch for Deep Learning & Machine Learning – Full Course.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/Epoch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
     "Ai/Pytorch/Video_Pytorch for deep learning/attachments",
     "Ai/Pytorch/Video_Pytorch for deep learning",
     "Ai/Pytorch",
-    "English/Tenses",
-    "English",
     "Web/CGI/CGI.canvas",
     "Web/Nginx/!Nginx.canvas",
     "Web/Docker/!Docker.canvas",
