@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c1b956ebbbd956eb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ai/Pytorch/!Pytorch.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "efcd6517d4dede5c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comeptitive Programming/Books.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11463a64bacbe5db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Comeptitive Programming/compitive programming hand book/compitive programming hand book.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7974de4d9b2da645",
             "type": "leaf",
             "state": {
@@ -61,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "Prgramming/Graph theory/Main_Graph theory.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,19 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/SSH/SSH.md",
+                "file": "Prgramming/Graph theory/graph algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bcbc9447d44d46c4",
+            "id": "b5ec683846252151",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "books/General-purpose graphics processor architecture/Main.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,42 +92,6 @@
             }
           },
           {
-            "id": "5b165bd4a60c9e4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ai/Conda/Anconda.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cbc31952aa10cff9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "379ddf70e1d7afb7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ai/Want to learn.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6865bcbe056cdcff",
             "type": "leaf",
             "state": {
@@ -174,21 +102,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "817fed7adff14d52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -217,7 +133,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#math",
+                "query": "git",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -262,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "books/General-purpose graphics processor architecture/Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -279,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "file": "books/General-purpose graphics processor architecture/Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -302,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md"
+                "file": "books/General-purpose graphics processor architecture/Main.md"
               }
             }
           },
@@ -335,62 +251,62 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bcbc9447d44d46c4",
+  "active": "b5ec683846252151",
   "lastOpenFiles": [
-    "Ai/Machine learning coursera/Classification.md",
-    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Epoch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/DataSets with pytorch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
-    "Ai/Concepts/Regression.md",
+    "books/General-purpose graphics processor architecture/attachments/Screenshot from 2024-07-19 17-17-44.png",
+    "books/General-purpose graphics processor architecture/attachments",
     "Web/Kubernetes/Notes_kubernetes.md",
-    "Web/Kubernetes/Notes k3s, k3d and argocd.md",
-    "books/The Rust Programming Language/3. Common Programming Concepts.md",
-    "Web/SSH/SSH.md",
-    "Ai/Pytorch/!Pytorch.md",
-    "Web/Kubernetes/Kubernetes Tutorial for Beginners.md",
-    "Cursus/Inception of things/Inception of things IoT.md",
-    "Cursus/Inception of things",
-    "Cursus",
-    "Web/SSL/!SSL.md",
-    "Web/SSH",
-    "OperatingSystem/Commands/Debian.md",
-    "OperatingSystem/Commands/Untitled.canvas",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-45-25.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-40-12.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-10-36 1.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-10-36.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-58-32.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-56-43.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-55-29.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-27-45.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-25-35.png",
-    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 13-06-13.png",
+    "books/General-purpose graphics processor architecture/Main.md",
+    "books/General-purpose graphics processor architecture",
     "Web/Kubernetes/_Kubernetes.md",
-    "Prgramming/CUDA Python with Numba/attachments",
-    "Prgramming/CUDA Python with Numba/Introduction to CUDA Python with Numba.md",
+    "books/The Rust Programming Language/15. Smart Pointers.md",
+    "books/The Rust Programming Language/16. Fearless Concurrency.md",
+    "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
+    "books/The Rust Programming Language/12. minigrep.md",
+    "books/The Rust Programming Language/11. Writing Automated Tests.md",
+    "books/The Rust Programming Language/10. Generic Types, Traits, and Lifetimes.md",
+    "books/The Rust Programming Language/6. Enums and Pattern Matching.md",
+    "books/The Rust Programming Language/9. Error Handling.md",
+    "books/The Rust Programming Language/8. Common Collections.md",
+    "books/The Rust Programming Language/7. Managing Growing Projects with Packages, Crates, and Modules.md",
+    "books/The Rust Programming Language/5. Using Structs to Structure Related Data.md",
+    "books/The Rust Programming Language/4. Understanding Ownership.md",
+    "books/The Rust Programming Language/_Rust.md",
+    "Cursus/ready-set-boole/Ready set boole.md",
+    "Cursus/ready-set-boole/attachments/th-3444714506.jpeg",
+    "Cursus/ready-set-boole/attachments/Screenshot from 2024-07-03 14-20-58.png",
+    "Cursus/ready-set-boole/attachments/Hilbert-curve_rounded-gradient-animated.gif",
+    "Cursus/ready-set-boole/attachments/The-first-second-and-third-order-of-a-Peano-curve-and-b-Hilbert-curve-128406488.png",
+    "Cursus/ready-set-boole/attachments/CheatSheetS.pdf",
+    "Cursus/ready-set-boole/attachments/Screenshot from 2024-06-30 20-32-18.png",
+    "Cursus/ready-set-boole/attachments/Screenshot from 2023-12-25 16-14-35.png",
+    "Cursus/ready-set-boole/attachments",
+    "Prgramming/Graph theory/Types of graph.md",
+    "Cursus/ready-set-boole",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
+    "Prgramming/Graph theory/Main_Graph theory.md",
     "Prgramming/CUDA Python with Numba/CUDA.md",
     "Comeptitive Programming/compitive programming hand book/compitive programming hand book.md",
-    "Physics/CFD/Notes.md",
-    "Web/Kubernetes/attachments",
-    "Web/Kubernetes",
-    "books/The Rust Programming Language/16. Fearless Concurrency.md",
-    "Prgramming/CUDA Python with Numba",
-    "Untitled/Untitled.md",
-    "Prgramming",
-    "books/The Rust Programming Language/6. Enums and Pattern Matching.md",
-    "books/The Rust Programming Language/5. Using Structs to Structure Related Data.md",
-    "books/The Rust Programming Language/attachments",
-    "Physics/attachments",
+    "Comeptitive Programming/Books.md",
+    "Ai/Pytorch/!Pytorch.md",
+    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 13-31-40.png",
+    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 14-16-33.png",
+    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 13-34-43.png",
+    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 13-33-39.png",
+    "Prgramming/Graph theory/attachments",
+    "Prgramming/Graph theory",
+    "Untitled.canvas",
+    "Cursus/n-puzzel/attachments",
+    "Cursus/n-puzzel",
+    "Cursus/Inception of things",
+    "OperatingSystem/Commands/Untitled.canvas",
     "books/introduction_to_algorithms/Untitled.canvas",
     "Web/CGI/CGI.canvas",
     "Web/Nginx/!Nginx.canvas",
     "Web/Docker/!Docker.canvas",
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
-    "Untitled.canvas",
     "Obsidian Tutorial/Untitled.canvas"
   ]
 }

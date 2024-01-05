@@ -153,7 +153,38 @@ spec:
 ![[Screenshot from 2024-03-15 21-16-20.png]]
 
 ----
+### kubernetes deployment process
 
+- `kubectl` reads the `deployment.yaml` file and constructs an HTTP request containing the Deployment object to be sent to the Kubernetes API Server.
+- The API Server authenticates the request (validates the user identity).
+- The API Server validates the Deployment object
+- The API Server writes the Deployment object to etcd, the cluster's state store.
+- Controller Manager Detects New Deployment and create the creating replicaSet object
+- The Scheduler watches for unscheduled pods and assigns them to appropriate nodes based on resource availability and scheduling policies.
+- The kubelet on each selected node receives the Pod specifications from the API Server.
+- The kubelet pulls the necessary container images
+- The kubelet continuously monitors the state of the pods and reports their status back to the API Server.
+- The API Server updates the Deployment status to reflect the current state of the pods
+- `kubectl` receives a response from the API Server, indicating that the Deployment has been created successfully.
+
+When a user runs `kubectl apply -f deployment.yaml`, `kubectl` communicates with the Kubernetes API Server, which processes the request, updates the cluster state in etcd, and triggers the necessary controllers to create and manage the pods. The scheduler assigns the pods to nodes, and the kubelet ensures they are running correctly.
+
+### Ingress vs service
+
+- Ingress: define how traffic should be routed to various services based in specific criteria such as hostname, path
+- act as a load balancer
+- Ingress resources through YAML file
+- ingress controller such as nginx-ingress
+- it centralize the work, single exposed IP address.
+
+**External Service**: A service that is exposed outside the Kubernetes cluster, allowing external clients to access it.
+**Internal Service**: A service that is only accessible within the Kubernetes cluster, typically used for communication between different components within the cluster.
+- an Ingress in Kubernetes can be used to expose internal services to external clients
+- advantage of Ingress
+	- Load balancing
+	- SSL/TLS termination
+	- One External IP address can expose many services
+	- Configuration file (Host Name, Path, SSL/TLS).
 
 ## YAML configuration file in kubernetes
 
