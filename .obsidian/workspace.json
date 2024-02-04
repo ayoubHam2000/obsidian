@@ -25,7 +25,75 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physics/CFD/CFD.md",
+                "file": "Comeptitive Programming/Books.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11463a64bacbe5db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Comeptitive Programming/compitive programming hand book/compitive programming hand book.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7974de4d9b2da645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9896fe7749c72431",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a20cef6ccd9e67b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/The Rust Programming Language/3. Common Programming Concepts.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "504eb33cd0a3df09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/The Rust Programming Language/Cargo commands.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe409554c3656e29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "books/The Rust Programming Language/1. Getting Started.md",
                 "mode": "source",
                 "source": false
               }
@@ -92,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -166,7 +234,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physics/CFD/CFD.md",
+                "file": "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +251,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physics/CFD/CFD.md",
+                "file": "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +274,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physics/CFD/CFD.md"
+                "file": "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md"
               }
             }
           },
@@ -216,7 +284,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -237,55 +307,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efcd6517d4dede5c",
+  "active": "7974de4d9b2da645",
   "lastOpenFiles": [
-    "English/Tenses/Tenses.md",
+    "Physics/CFD/Notes.md",
+    "Physics/CFD/attachments/Screenshot from 2024-02-03 17-54-07.png",
+    "Physics/CFD/attachments/Screenshot from 2024-02-03 17-52-02.png",
+    "Physics/attachments/Screenshot from 2024-02-03 17-41-49.png",
+    "Physics/attachments",
     "Physics/CFD/CFD.md",
+    "English/vocabulary/1984 - chapter 1 part 2.md",
+    "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
+    "books/The Rust Programming Language/_Rust.md",
+    "books/The Rust Programming Language/11. Writing Automated Tests.md",
+    "books/The Rust Programming Language/10. Generic Types, Traits, and Lifetimes.md",
+    "books/The Rust Programming Language/9. Error Handling.md",
+    "books/The Rust Programming Language/1. Getting Started.md",
+    "books/The Rust Programming Language/3. Common Programming Concepts.md",
+    "books/The Rust Programming Language/4. Understanding Ownership.md",
+    "books/The Rust Programming Language/5. Using Structs to Structure Related Data.md",
+    "books/The Rust Programming Language/6. Enums and Pattern Matching.md",
+    "books/The Rust Programming Language/7. Managing Growing Projects with Packages, Crates, and Modules.md",
+    "books/The Rust Programming Language/8. Common Collections.md",
+    "books/The Rust Programming Language/Cargo commands.md",
+    "Comeptitive Programming/compitive programming hand book/compitive programming hand book.md",
+    "Comeptitive Programming/compitive programming hand book/Chapter 1.md",
+    "Comeptitive Programming/compitive programming hand book/Chapter 2.md",
+    "books/The Rust Programming Language",
+    "English/Tenses/Tenses.md",
+    "English/zAmericanEnglish/Grammar level 1.md",
+    "Ai/Conda/Anconda.md",
+    "English/vocabulary",
+    "English/zAmericanEnglish",
+    "Physics/CFD/attachments/Screenshot from 2023-12-10 18-16-51.png",
+    "Physics/CFD/attachments",
+    "Comeptitive Programming/compitive programming hand book",
+    "Comeptitive Programming/Books.md",
+    "Ai/Pytorch/!Pytorch.md",
+    "Comeptitive Programming",
     "Physics/CFD",
     "Physics",
     "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
-    "Ai/Conda/Anconda.md",
-    "Ai/Reinforcement learning/Reinforcement learning.md",
     "Ai/Reinforcement learning/attachments/Screenshot from 2023-11-22 14-52-39.png",
     "Ai/Reinforcement learning/attachments",
-    "Ai/Machine learning coursera/Classification.md",
-    "Ai/Machine learning coursera/Tmp.md",
     "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-15 10-00-22.png",
-    "Ai/Concepts/Regression.md",
-    "books/introduction_to_algorithms/P NP NP-complete NP-Hard.md",
     "books/introduction_to_algorithms/attachments/V3KXz 1.png",
     "books/introduction_to_algorithms/attachments/V3KXz.png",
     "books/introduction_to_algorithms/attachments/350px-Difference_between_deterministic_and_Nondeterministic.svg.png",
-    "books/introduction_to_algorithms/Algorithm.md",
     "books/introduction_to_algorithms/Untitled.canvas",
-    "Math/KeyWords/Taylor series.md",
-    "Math/KeyWords/Lambert W Function.md",
-    "books/introduction_to_algorithms/Key Words.md",
-    "books/introduction_to_algorithms/Amortized Analysis.md",
-    "books/introduction_to_algorithms/Traveling Salesperson Problem.md",
-    "Ai/Pytorch/!Pytorch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
-    "Ai/Reinforcement learning",
     "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-04 14-38-59.png",
-    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-02 10-52-03.png",
-    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-02 10-51-42.png",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
-    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-02 10-46-10.png",
-    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-02 10-38-46.png",
-    "Ai/Machine learning coursera/attachments",
-    "Ai/Concepts",
-    "Ai/!Ai.md",
-    "Ai/Machine learning coursera",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/DataSets with pytorch.md",
-    "Math/Algebra/Geometric series.md",
-    "Ai/Want to learn.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/PyTorch for Deep Learning & Machine Learning – Full Course.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Epoch.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/attachments",
-    "Ai/Pytorch/Video_Pytorch for deep learning",
-    "Ai/Pytorch",
     "Web/CGI/CGI.canvas",
     "Web/Nginx/!Nginx.canvas",
     "Web/Docker/!Docker.canvas",

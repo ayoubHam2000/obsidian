@@ -1,5 +1,5 @@
 
- [[notes]]
+ [[books/JavaScript                                 The Definitive Guide/notes]]
  [[Unicode]]
  [[Optional Semicolons]]
  [[JavaScript types]]

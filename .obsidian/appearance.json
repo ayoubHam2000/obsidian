@@ -3,5 +3,7 @@
   "enabledCssSnippets": [
     "tmp"
   ],
-  "cssTheme": "Obsidianite"
+  "cssTheme": "Obsidianite",
+  "baseFontSize": 20,
+  "theme": "obsidian"
 }
