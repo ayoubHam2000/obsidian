@@ -19,3 +19,4 @@ https://github.com/rust-lang/rustlings/tree/main
 ## [[10. Generic Types, Traits, and Lifetimes]]
 ## [[11. Writing Automated Tests]]
 ## [[13. Functional Language Features Iterators and Closures]]
+## [[15. Smart Pointers]]
