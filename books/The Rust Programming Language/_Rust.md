@@ -20,3 +20,4 @@ https://github.com/rust-lang/rustlings/tree/main
 ## [[11. Writing Automated Tests]]
 ## [[13. Functional Language Features Iterators and Closures]]
 ## [[15. Smart Pointers]]
+## [[16. Fearless Concurrency]]

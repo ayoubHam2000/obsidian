@@ -162,4 +162,7 @@ y_pred = sgdr.predict(X_norm)
 - features
 - targets
 - hypothesis (function)
-- 
+
+## Links
+
+https://github.com/greyhatguy007/Machine-Learning-Specialization-Coursera/tree/main/C1%20-%20Supervised%20Machine%20Learning%20-%20Regression%20and%20Classification

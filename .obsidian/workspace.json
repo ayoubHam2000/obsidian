@@ -49,18 +49,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/The Rust Programming Language/15. Smart Pointers.md",
+                "file": "Prgramming/CUDA Python with Numba/CUDA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9896fe7749c72431",
+            "id": "487443049ba0159d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "43e29449984c0042",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Web/SSH/SSH.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcbc9447d44d46c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -160,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -234,7 +262,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/The Rust Programming Language/15. Smart Pointers.md",
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -251,7 +279,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/The Rust Programming Language/15. Smart Pointers.md",
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -274,7 +302,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/The Rust Programming Language/15. Smart Pointers.md"
+                "file": "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md"
               }
             }
           },
@@ -307,53 +335,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7974de4d9b2da645",
+  "active": "bcbc9447d44d46c4",
   "lastOpenFiles": [
-    "books/The Rust Programming Language/7. Managing Growing Projects with Packages, Crates, and Modules.md",
-    "books/The Rust Programming Language/15. Smart Pointers.md",
-    "books/The Rust Programming Language/attachments/trpl15-03.svg",
-    "books/The Rust Programming Language/attachments",
-    "books/The Rust Programming Language/_Rust.md",
-    "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
-    "books/The Rust Programming Language/12. minigrep.md",
-    "books/The Rust Programming Language/11. Writing Automated Tests.md",
-    "books/The Rust Programming Language/9. Error Handling.md",
-    "books/The Rust Programming Language/Cargo commands.md",
-    "books/The Rust Programming Language/1. Getting Started.md",
-    "books/The Rust Programming Language/10. Generic Types, Traits, and Lifetimes.md",
-    "books/The Rust Programming Language/8. Common Collections.md",
-    "Physics/CFD/Notes.md",
-    "Physics/CFD/attachments/Screenshot from 2024-02-03 17-54-07.png",
-    "Physics/CFD/attachments/Screenshot from 2024-02-03 17-52-02.png",
-    "Physics/attachments/Screenshot from 2024-02-03 17-41-49.png",
-    "Physics/attachments",
-    "Physics/CFD/CFD.md",
-    "English/vocabulary/1984 - chapter 1 part 2.md",
+    "Ai/Machine learning coursera/Classification.md",
+    "Ai/Machine learning coursera/Machine learning deep learning ai coursera.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/functions and methods.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Epoch.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/DataSets with pytorch.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Concepts.md",
+    "Ai/Pytorch/Video_Pytorch for deep learning/Computer Vision.md",
+    "Ai/Concepts/Regression.md",
+    "Web/Kubernetes/Notes_kubernetes.md",
+    "Web/Kubernetes/Notes k3s, k3d and argocd.md",
     "books/The Rust Programming Language/3. Common Programming Concepts.md",
-    "books/The Rust Programming Language/4. Understanding Ownership.md",
-    "books/The Rust Programming Language/5. Using Structs to Structure Related Data.md",
-    "books/The Rust Programming Language/6. Enums and Pattern Matching.md",
+    "Web/SSH/SSH.md",
+    "Ai/Pytorch/!Pytorch.md",
+    "Web/Kubernetes/Kubernetes Tutorial for Beginners.md",
+    "Cursus/Inception of things/Inception of things IoT.md",
+    "Cursus/Inception of things",
+    "Cursus",
+    "Web/SSL/!SSL.md",
+    "Web/SSH",
+    "OperatingSystem/Commands/Debian.md",
+    "OperatingSystem/Commands/Untitled.canvas",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-45-25.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-40-12.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-10-36 1.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-26 15-10-36.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-58-32.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-56-43.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-55-29.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-27-45.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 16-25-35.png",
+    "Web/Kubernetes/attachments/Screenshot from 2024-03-22 13-06-13.png",
+    "Web/Kubernetes/_Kubernetes.md",
+    "Prgramming/CUDA Python with Numba/attachments",
+    "Prgramming/CUDA Python with Numba/Introduction to CUDA Python with Numba.md",
+    "Prgramming/CUDA Python with Numba/CUDA.md",
     "Comeptitive Programming/compitive programming hand book/compitive programming hand book.md",
-    "Comeptitive Programming/compitive programming hand book/Chapter 1.md",
-    "Comeptitive Programming/compitive programming hand book/Chapter 2.md",
-    "books/The Rust Programming Language",
-    "English/Tenses/Tenses.md",
-    "English/zAmericanEnglish/Grammar level 1.md",
-    "Ai/Conda/Anconda.md",
-    "English/vocabulary",
-    "English/zAmericanEnglish",
-    "Physics/CFD/attachments/Screenshot from 2023-12-10 18-16-51.png",
-    "Physics/CFD/attachments",
-    "Comeptitive Programming/compitive programming hand book",
-    "Comeptitive Programming/Books.md",
-    "Comeptitive Programming",
-    "Physics/CFD",
-    "Physics",
-    "Ai/Reinforcement learning/attachments/Screenshot from 2023-11-22 14-52-39.png",
-    "Ai/Machine learning coursera/attachments/Screenshot from 2023-11-15 10-00-22.png",
-    "books/introduction_to_algorithms/attachments/V3KXz 1.png",
-    "books/introduction_to_algorithms/attachments/V3KXz.png",
-    "books/introduction_to_algorithms/attachments/350px-Difference_between_deterministic_and_Nondeterministic.svg.png",
+    "Physics/CFD/Notes.md",
+    "Web/Kubernetes/attachments",
+    "Web/Kubernetes",
+    "books/The Rust Programming Language/16. Fearless Concurrency.md",
+    "Prgramming/CUDA Python with Numba",
+    "Untitled/Untitled.md",
+    "Prgramming",
+    "books/The Rust Programming Language/6. Enums and Pattern Matching.md",
+    "books/The Rust Programming Language/5. Using Structs to Structure Related Data.md",
+    "books/The Rust Programming Language/attachments",
+    "Physics/attachments",
     "books/introduction_to_algorithms/Untitled.canvas",
     "Web/CGI/CGI.canvas",
     "Web/Nginx/!Nginx.canvas",
@@ -361,7 +391,6 @@
     "books/JavaScript                                 The Definitive Guide/Untitled.canvas",
     "books/hands_on_network_programming/_Hands_on_network_programming_with_c.canvas",
     "Untitled.canvas",
-    "OperatingSystem/Commands/Untitled.canvas",
     "Obsidian Tutorial/Untitled.canvas"
   ]
 }
