@@ -9,3 +9,9 @@ color: #1ce4a5;
 mjx-math {
     font-size: 140% !important;
   }
+
+
+body {
+	--file-line-width: 1100px;
+}
+

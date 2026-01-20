@@ -1,0 +1,4 @@
+- other solvers explainations
+- methods of krylov solvers
+- HIP, DPC, SYCL accelerators
+- cmake, modern c++17

@@ -4,107 +4,250 @@
     "type": "split",
     "children": [
       {
-        "id": "7d8cbbe92e8977cf",
+        "id": "43bf5f51f00f36a8",
         "type": "tabs",
         "children": [
           {
-            "id": "7974de4d9b2da645",
+            "id": "2014c7d0362d31f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prgramming/CUDA Python with Numba/CUDA.md",
+                "file": "Projects/Manapy/Notes.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Notes"
             }
           },
           {
-            "id": "487443049ba0159d",
+            "id": "0c1041ac6e157488",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prgramming/Graph theory/Main_Graph theory.md",
+                "file": "Prgramming/Assembly and computer architecture/_Main_Computer architecture.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "_Main_Computer architecture"
             }
           },
           {
-            "id": "43e29449984c0042",
+            "id": "d4ece5cc4682bbfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Prgramming/Graph theory/graph algorithms.md",
+                "file": "Prgramming/Assembly and computer architecture/_Main_Assembly.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "_Main_Assembly"
             }
           },
           {
-            "id": "b5ec683846252151",
+            "id": "5be6efe2996124d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/General-purpose graphics processor architecture/Main.md",
+                "file": "Prgramming/Assembly and computer architecture/Stack.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Stack"
             }
           },
           {
-            "id": "a20cef6ccd9e67b6",
+            "id": "07809aa7410926da",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/The Rust Programming Language/3. Common Programming Concepts.md",
+                "file": "Prgramming/Parallelism/_Main.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "_Main"
             }
           },
           {
-            "id": "504eb33cd0a3df09",
+            "id": "e38f3a440fc68e05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/The Rust Programming Language/Cargo commands.md",
+                "file": "Prgramming/Parallelism/Manapy.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Manapy"
             }
           },
           {
-            "id": "fe409554c3656e29",
+            "id": "e6d877ac11a6b2ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "books/The Rust Programming Language/1. Getting Started.md",
+                "file": "Prgramming/Parallelism/Manapy.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Manapy"
             }
           },
           {
-            "id": "6865bcbe056cdcff",
+            "id": "788cdb19c168b2b5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
+                "file": "Prgramming/Assembly and computer architecture/NASM.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "NASM"
+            }
+          },
+          {
+            "id": "8f08a54e5cbf443a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prgramming/Assembly and computer architecture/Registers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Registers"
+            }
+          },
+          {
+            "id": "6d3e4dc2923ac693",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Manapy/Notes.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Notes"
+            }
+          },
+          {
+            "id": "8f4c03621b588fb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prgramming/tools/gdb/_GDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_GDB"
+            }
+          },
+          {
+            "id": "c5e4d3bb4deea596",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prgramming/tools/gdb/_GDB.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_GDB"
+            }
+          },
+          {
+            "id": "e1cfb4bec075d57e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prgramming/Assembly and computer architecture/Registers.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Registers"
+            }
+          },
+          {
+            "id": "215f285dc691b3c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Manapy/Linear Solver/mtx file structure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "mtx file structure"
+            }
+          },
+          {
+            "id": "61dde59950d2c114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Manapy/Linear Solver/matrix types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "matrix types"
+            }
+          },
+          {
+            "id": "5e202280808049da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Projects/Manapy/Linear Solver/_Ginkgo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "_Ginkgo"
+            }
+          },
+          {
+            "id": "f5b96f4a447407bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Prgramming/tools/slurm/Slurm.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Slurm"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,8 +266,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -133,13 +279,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "git",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -147,7 +295,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -155,7 +305,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -178,7 +330,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "books/General-purpose graphics processor architecture/Main.md",
+                "file": "Prgramming/tools/gdb/_GDB.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +338,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for _GDB"
             }
           },
           {
@@ -195,10 +349,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "books/General-purpose graphics processor architecture/Main.md",
+                "file": "Prgramming/tools/gdb/_GDB.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from _GDB"
             }
           },
           {
@@ -209,7 +365,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -218,8 +376,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "books/General-purpose graphics processor architecture/Main.md"
-              }
+                "file": "Prgramming/tools/gdb/_GDB.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of _GDB"
             }
           },
           {
@@ -231,7 +391,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           }
         ]
@@ -243,6 +405,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -251,56 +414,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5ec683846252151",
+  "active": "2014c7d0362d31f1",
   "lastOpenFiles": [
-    "books/General-purpose graphics processor architecture/attachments/Screenshot from 2024-07-19 17-17-44.png",
-    "books/General-purpose graphics processor architecture/attachments",
-    "Web/Kubernetes/Notes_kubernetes.md",
-    "books/General-purpose graphics processor architecture/Main.md",
-    "books/General-purpose graphics processor architecture",
-    "Web/Kubernetes/_Kubernetes.md",
-    "books/The Rust Programming Language/15. Smart Pointers.md",
-    "books/The Rust Programming Language/16. Fearless Concurrency.md",
-    "books/The Rust Programming Language/13. Functional Language Features Iterators and Closures.md",
-    "books/The Rust Programming Language/12. minigrep.md",
-    "books/The Rust Programming Language/11. Writing Automated Tests.md",
-    "books/The Rust Programming Language/10. Generic Types, Traits, and Lifetimes.md",
-    "books/The Rust Programming Language/6. Enums and Pattern Matching.md",
+    "Prgramming/Assembly and computer architecture/_Main_Computer architecture.md",
+    "Projects/Manapy/_Manapy.md",
+    "Projects/HomeServer/_Main_Home_Server.md",
+    "Projects/HomeServer/Untitled.base",
     "books/The Rust Programming Language/9. Error Handling.md",
-    "books/The Rust Programming Language/8. Common Collections.md",
-    "books/The Rust Programming Language/7. Managing Growing Projects with Packages, Crates, and Modules.md",
-    "books/The Rust Programming Language/5. Using Structs to Structure Related Data.md",
-    "books/The Rust Programming Language/4. Understanding Ownership.md",
-    "books/The Rust Programming Language/_Rust.md",
-    "Cursus/ready-set-boole/Ready set boole.md",
-    "Cursus/ready-set-boole/attachments/th-3444714506.jpeg",
-    "Cursus/ready-set-boole/attachments/Screenshot from 2024-07-03 14-20-58.png",
-    "Cursus/ready-set-boole/attachments/Hilbert-curve_rounded-gradient-animated.gif",
-    "Cursus/ready-set-boole/attachments/The-first-second-and-third-order-of-a-Peano-curve-and-b-Hilbert-curve-128406488.png",
-    "Cursus/ready-set-boole/attachments/CheatSheetS.pdf",
-    "Cursus/ready-set-boole/attachments/Screenshot from 2024-06-30 20-32-18.png",
-    "Cursus/ready-set-boole/attachments/Screenshot from 2023-12-25 16-14-35.png",
-    "Cursus/ready-set-boole/attachments",
-    "Prgramming/Graph theory/Types of graph.md",
-    "Cursus/ready-set-boole",
-    "Ai/Pytorch/Video_Pytorch for deep learning/Why Deep Learning.md",
-    "Ai/Pytorch/Video_Pytorch for deep learning/TimeLine.md",
-    "Prgramming/Graph theory/Main_Graph theory.md",
-    "Prgramming/CUDA Python with Numba/CUDA.md",
-    "Comeptitive Programming/compitive programming hand book/compitive programming hand book.md",
-    "Comeptitive Programming/Books.md",
-    "Ai/Pytorch/!Pytorch.md",
-    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 13-31-40.png",
-    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 14-16-33.png",
-    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 13-34-43.png",
-    "Prgramming/Graph theory/attachments/Screenshot from 2024-05-31 13-33-39.png",
-    "Prgramming/Graph theory/attachments",
-    "Prgramming/Graph theory",
-    "Untitled.canvas",
-    "Cursus/n-puzzel/attachments",
-    "Cursus/n-puzzel",
-    "Cursus/Inception of things",
+    "Projects/HomeServer/Untitled 1.base",
+    "Web/Services/FTP/_FTP.md",
+    "Math/KeyWords/Lambert W Function.md",
+    "Projects/Manapy/Linear Solver/Ginkgo_Get_Started.md",
+    "Projects/Manapy/Linear Solver/Ginkgo Notes.md",
+    "Projects/Manapy/Linear Solver/Ginkgo_Installation.md",
+    "Projects/Manapy/Linear Solver/_Ginkgo.md",
+    "Daily Notes/MainTasks/Main.md",
+    "Prgramming/tools/slurm/Slurm.md",
+    "Prgramming/Security/Sqlinjection/SQl injection.md",
+    "Projects/HomeServer",
+    "Prgramming/Security/Sqlinjection",
+    "Prgramming/Security",
+    "Projects/Manapy/Linear Solver/matrix.md",
+    "Projects/Manapy/Linear Solver/Ginkgo next.md",
+    "Projects/Manapy/Linear Solver/mtx file structure.md",
+    "Projects/Manapy/Linear Solver/matrix types.md",
+    "Projects/Manapy/Metis.md",
+    "Projects/Manapy/Linear Solver",
+    "Projects/Manapy/Math.md",
+    "Projects/Manapy/Notes.md",
+    "Projects/Manapy/ParMETIS Mesh Partitioning (Dual Graph Generation).md",
+    "Daily Notes/Manapy/Tables.md",
+    "Daily Notes/Manapy/ToDo.md",
+    "Daily Notes/PhotoApp.md",
+    "1337Cursus/Rainfall/GOT-PLT.md",
+    "Prgramming/Assembly and computer architecture/Registers.md",
+    "Prgramming/Assembly and computer architecture.zip",
+    "1337Cursus/Boot2root/attachments/en.subject.pdf",
+    "1337Cursus/Boot2root/attachments",
+    "1337Cursus/Boot2root",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-52-10.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-48-14.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-36-55.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-35-54.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-26-08.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-25-24.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 20-25-09.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 17-10-09.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-14 17-09-32.png",
+    "Prgramming/Assembly and computer architecture/attachments/Screenshot from 2024-12-13 21-43-03.png",
     "OperatingSystem/Commands/Untitled.canvas",
+    "Untitled.canvas",
     "books/introduction_to_algorithms/Untitled.canvas",
     "Web/CGI/CGI.canvas",
     "Web/Nginx/!Nginx.canvas",
